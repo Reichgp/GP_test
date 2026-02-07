@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GP Test</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin: 24px; max-width: 900px; }
+    .topbar { display:flex; gap:12px; flex-wrap:wrap; align-items:center; justify-content:space-between; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; margin: 16px 0; }
+    .muted { color: #666; }
+    .opt { display:block; padding: 10px 12px; border: 1px solid #ddd; border-radius: 10px; margin: 10px 0; cursor: pointer; }
+    .opt:hover { background: #f7f7f7; }
+    button { padding: 10px 14px; border-radius: 10px; border: 1px solid #ccc; background: #fff; cursor: pointer; }
+    button:disabled { opacity: .5; cursor: not-allowed; }
+    .row { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+    .ok { color: #0a7; font-weight: 700; }
+    .bad { color: #c00; font-weight: 700; }
+    .explain { margin-top: 10px; padding: 10px 12px; border-left: 4px solid #ddd; background: #fafafa; border-radius: 8px; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .small { font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <div>
+      <h1 style="margin:0;">GP Test</h1>
+      <div class="muted small" id="status">Cargando…</div>
+    </div>
+
+    <div class="row">
+      <button id="btnRestart" type="button" disabled>Reiniciar</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="muted small" id="progress"></div>
+    <h2 id="question" style="margin: 8px 0 6px;"></h2>
+    <div id="options"></div>
+
+    <div class="row" style="margin-top: 12px;">
+      <button id="btnAnswer" type="button" disabled>Responder</button>
+      <button id="btnNext" type="button" disabled>Siguiente</button>
+    </div>
+
+    <div id="result" style="margin-top: 12px;"></div>
+    <div id="explanation" class="explain" style="display:none;"></div>
+  </div>
+
+  <div class="card">
+    <div class="row" style="justify-content:space-between;">
+      <div><span class="mono">Aciertos:</span> <span id="score">0</span></div>
+      <div><span class="mono">Respondidas:</span> <span id="answered">0</span></div>
+      <div><span class="mono">Total:</span> <span id="total">0</span></div>
+    </div>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
