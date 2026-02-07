@@ -1,0 +1,2935 @@
+{
+  "settings": {
+    "show_progress": true,
+    "shuffle_options": true,
+    "show_explanation": true,
+    "shuffle_questions": true
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "question": "¿Qué es un proyecto?",
+      "options": [
+        "Una secuencia de actividades continuas.",
+        "Un esfuerzo para alcanzar resultados definidos previamente sin límite de tiempo.",
+        "Un esfuerzo temporal emprendido para crear un único producto o servicio.",
+        "Cualquier esfuerzo para cumplir con unos requerimientos operativos."
+      ],
+      "correct_answer": "Un esfuerzo temporal emprendido para crear un único producto o servicio.",
+      "explanation": "Por definición, un proyecto es temporal (tiene un inicio y fin) y único (genera un resultado singular), diferenciándose de las operaciones que son continuas."
+    },
+    {
+      "id": "q2",
+      "type": "single_choice",
+      "question": "¿Qué significa el concepto de \"temporal\" en la definición de proyecto?",
+      "options": [
+        "Que es de corta duración.",
+        "Que debe ser terminado dentro del ejercicio fiscal.",
+        "Que tiene un principio y un fin.",
+        "Que depende de la disponibilidad de recursos temporales."
+      ],
+      "correct_answer": "Que tiene un principio y un fin.",
+      "explanation": "La temporalidad indica que el esfuerzo del proyecto está acotado en el tiempo, independientemente de la duración total."
+    },
+    {
+      "id": "q3",
+      "type": "single_choice",
+      "question": "¿Qué no es verdad cuando hablamos de operaciones y proyectos?",
+      "options": [
+        "Los dos están exentos de incertidumbre.",
+        "Los dos son realizados por personas.",
+        "Los dos están condicionados por las limitaciones de los recursos.",
+        "Los dos deben ser planificados, ejecutados y controlados."
+      ],
+      "correct_answer": "Los dos están exentos de incertidumbre.",
+      "explanation": "Los proyectos se caracterizan precisamente por la incertidumbre y el riesgo debido a su carácter único, a diferencia de las operaciones que suelen estar procedimentadas."
+    },
+    {
+      "id": "q4",
+      "type": "single_choice",
+      "question": "¿Cómo podemos definir de forma genérica el éxito de un proyecto?",
+      "options": [
+        "Satisfacer al cliente aunque se exceda el presupuesto.",
+        "Asegurar productos o servicios a tiempo, con calidad y dentro del presupuesto aprobado.",
+        "Cumplir estrictamente con los requerimientos técnicos firmados.",
+        "Obtener el máximo beneficio económico posible."
+      ],
+      "correct_answer": "Asegurar productos o servicios a tiempo, con calidad y dentro del presupuesto aprobado.",
+      "explanation": "El éxito se basa en el equilibrio entre alcance, tiempo, coste, riesgo y calidad."
+    },
+    {
+      "id": "q5",
+      "type": "single_choice",
+      "question": "¿Quiénes se consideran stakeholders?",
+      "options": [
+        "Solo el equipo interno del proyecto.",
+        "Solo los clientes externos.",
+        "Individuos u organizaciones involucrados activamente o cuyos intereses pueden verse afectados por el proyecto.",
+        "Personas ajenas a la organización que no tienen influencia en los resultados."
+      ],
+      "correct_answer": "Individuos u organizaciones involucrados activamente o cuyos intereses pueden verse afectados por el proyecto.",
+      "explanation": "Los interesados o stakeholders pueden ser internos o externos y verse afectados positiva o negativamente."
+    },
+    {
+      "id": "q6",
+      "type": "single_choice",
+      "question": "El plan de proyecto debe incluir:",
+      "options": [
+        "Solo la secuencia de actividades en el tiempo.",
+        "Únicamente las áreas de alcance y tiempo para no ser complejo.",
+        "Todas las áreas de conocimiento con la profundidad que requiera la complejidad del proyecto.",
+        "Solo el presupuesto y el cronograma."
+      ],
+      "correct_answer": "Todas las áreas de conocimiento con la profundidad que requiera la complejidad del proyecto.",
+      "explanation": "Un plan integral debe armonizar todas las áreas (alcance, tiempo, coste, riesgo, calidad, etc.)."
+    },
+    {
+      "id": "q7",
+      "type": "single_choice",
+      "question": "¿Qué es la dirección de proyectos?",
+      "options": [
+        "Aplicar conocimientos para cumplir con las expectativas subjetivas de los interesados.",
+        "Aplicar habilidades para exceder siempre los requisitos iniciales.",
+        "La aplicación de conocimientos, habilidades, herramientas y técnicas a las actividades de un proyecto para cumplir con sus requisitos.",
+        "Supervisar exclusivamente el trabajo del equipo técnico."
+      ],
+      "correct_answer": "La aplicación de conocimientos, habilidades, herramientas y técnicas a las actividades de un proyecto para cumplir con sus requisitos.",
+      "explanation": "Es la definición profesional que busca equilibrar las restricciones del proyecto."
+    },
+    {
+      "id": "q8",
+      "type": "single_choice",
+      "question": "¿Qué no es verdad en un proceso?",
+      "options": [
+        "Tienen entradas y producen salidas.",
+        "Solo aplican en las operaciones rutinarias.",
+        "Aplican técnicas y herramientas a las entradas.",
+        "Son capaces de producir un resultado o servicio."
+      ],
+      "correct_answer": "Solo aplican en las operaciones rutinarias.",
+      "explanation": "Tanto los proyectos como las operaciones se gestionan a través de procesos."
+    },
+    {
+      "id": "q9",
+      "type": "single_choice",
+      "question": "¿Cómo se define la calidad en un proyecto?",
+      "options": [
+        "Debe cumplir con los requisitos o especificaciones definidos.",
+        "Debe ser adecuado al uso.",
+        "Debe producir satisfacción al cliente.",
+        "Todas las anteriores son correctas."
+      ],
+      "correct_answer": "Todas las anteriores son correctas.",
+      "explanation": "La calidad integra la conformidad con los requisitos, la idoneidad para el uso y la percepción de valor del cliente."
+    },
+    {
+      "id": "q10",
+      "type": "single_choice",
+      "question": "Indica cuál no es un beneficio del uso de una metodología común:",
+      "options": [
+        "Facilita la comunicación con un vocabulario común.",
+        "Permite estimaciones más realistas basadas en lecciones aprendidas.",
+        "Permite hacer una monitorización poco eficaz del avance.",
+        "Asegura coherencia al definir tareas al equipo."
+      ],
+      "correct_answer": "Permite hacer una monitorización poco eficaz del avance.",
+      "explanation": "Al contrario, la metodología sistematiza la monitorización para hacerla eficaz."
+    },
+    {
+      "id": "q11",
+      "type": "single_choice",
+      "question": "La incertidumbre se define como:",
+      "options": [
+        "La presencia de riesgos positivos.",
+        "La ausencia de información.",
+        "La certeza de que el proyecto fallará.",
+        "El coste de corregir errores."
+      ],
+      "correct_answer": "La ausencia de información.",
+      "explanation": "La incertidumbre es la falta de datos sobre el impacto o probabilidad de un evento futuro."
+    },
+    {
+      "id": "q12",
+      "type": "single_choice",
+      "question": "Las habilidades de gestión de un líder incluyen:",
+      "options": [
+        "Solo conocimientos técnicos profundos.",
+        "Liderazgo, negociación y gestión de conflictos.",
+        "Únicamente la capacidad de mando jerárquico.",
+        "Seguir el plan sin permitir cambios."
+      ],
+      "correct_answer": "Liderazgo, negociación y gestión de conflictos.",
+      "explanation": "El director de proyectos debe ser un integrador y gestor de personas."
+    },
+    {
+      "id": "q13",
+      "type": "single_choice",
+      "question": "El concepto de \"gano-ganas\" busca:",
+      "options": [
+        "Que el suministrador siempre obtenga más beneficio que el cliente.",
+        "Que todos los participantes clave obtengan un beneficio equilibrado.",
+        "Que el cliente reciba el servicio sin coste adicional por riesgos.",
+        "Evitar la participación de stakeholders con intereses opuestos."
+      ],
+      "correct_answer": "Que todos los participantes clave obtengan un beneficio equilibrado.",
+      "explanation": "La dirección de proyectos trata de establecer armonía entre los intereses contrapuestos de los interesados."
+    },
+    {
+      "id": "q14",
+      "type": "single_choice",
+      "question": "La profesionalización en dirección de proyectos permite:",
+      "options": [
+        "Convertir una profesión \"accidental\" en una carrera con certificación.",
+        "Reducir la importancia de la planificación.",
+        "Delegar toda la responsabilidad en los departamentos funcionales.",
+        "Ignorar la ética para cumplir con el presupuesto."
+      ],
+      "correct_answer": "Convertir una profesión \"accidental\" en una carrera con certificación.",
+      "explanation": "El uso de metodologías estándar y certificaciones como PMP otorga un cuerpo de conocimiento formal."
+    },
+    {
+      "id": "q15",
+      "type": "single_choice",
+      "question": "El proyecto se considera un sistema para:",
+      "options": [
+        "Maximizar solo el beneficio financiero a corto plazo.",
+        "La entrega de valor a la organización y sus interesados.",
+        "Cumplir tareas técnicas sin importar el resultado del negocio.",
+        "Evitar cualquier tipo de contacto con el mercado."
+      ],
+      "correct_answer": "La entrega de valor a la organización y sus interesados.",
+      "explanation": "Según el PMBOK 7ª ed., los proyectos impulsan resultados que aportan valor estratégico."
+    },
+    {
+      "id": "q16",
+      "type": "single_choice",
+      "question": "¿Qué es un programa?",
+      "options": [
+        "Un conjunto de actividades de mantenimiento anual.",
+        "Un grupo de proyectos relacionados manejados coordinadamente para obtener beneficios.",
+        "Un proyecto con un presupuesto superior al millón de euros.",
+        "La secuencia lógica de fases de un solo proyecto."
+      ],
+      "correct_answer": "Un grupo de proyectos relacionados manejados coordinadamente para obtener beneficios.",
+      "explanation": "La gestión de programas busca sinergias que no se obtendrían gestionando los proyectos de forma individual."
+    },
+    {
+      "id": "q17",
+      "type": "single_choice",
+      "question": "El ciclo de vida del proyecto:",
+      "options": [
+        "Es igual al ciclo de vida del producto desarrollado.",
+        "Coincide con el cronograma detallado de la fase de ejecución.",
+        "Define las fases que conectan el inicio de un proyecto con su fin.",
+        "Solo aplica a proyectos de naturaleza predictiva."
+      ],
+      "correct_answer": "Define las fases que conectan el inicio de un proyecto con su fin.",
+      "explanation": "Son las etapas por las que pasa el proyecto para alcanzar sus objetivos."
+    },
+    {
+      "id": "q18",
+      "type": "single_choice",
+      "question": "El ciclo de vida de la gestión del proyecto está formado por:",
+      "options": [
+        "Inicio, Planificación, Ejecución, Control y Cierre.",
+        "Requisitos, Diseño, Construcción y Pruebas.",
+        "Ventas, Desarrollo, Operación y Retirada.",
+        "Análisis, Programación, Testing y Despliegue."
+      ],
+      "correct_answer": "Inicio, Planificación, Ejecución, Control y Cierre.",
+      "explanation": "Estos son los cinco grupos de procesos fundamentales de la metodología."
+    },
+    {
+      "id": "q19",
+      "type": "single_choice",
+      "question": "A lo largo del ciclo de vida de un proyecto, la incertidumbre y el riesgo:",
+      "options": [
+        "Aumentan gradualmente.",
+        "Se mantienen constantes.",
+        "Disminuyen conforme se avanza.",
+        "Solo aparecen en la fase final de cierre."
+      ],
+      "correct_answer": "Disminuyen conforme se avanza.",
+      "explanation": "El conocimiento del proyecto aumenta y las dudas se disipan con la ejecución del trabajo."
+    },
+    {
+      "id": "q20",
+      "type": "single_choice",
+      "question": "¿Qué sucede con la capacidad de cambio a medida que el proyecto progresa?",
+      "options": [
+        "Aumenta porque se conoce mejor el producto.",
+        "Disminuye significativamente.",
+        "Se mantiene igual hasta el cierre.",
+        "Solo es posible cambiar en la fase de inicio."
+      ],
+      "correct_answer": "Disminuye significativamente.",
+      "explanation": "Influir en el resultado final es más fácil al principio; los cambios tardíos son costosos y difíciles."
+    },
+    {
+      "id": "q21",
+      "type": "single_choice",
+      "question": "El concepto de \"entregable\" es:",
+      "options": [
+        "Una promesa verbal del director de proyectos.",
+        "Un elemento físico documentable o un documento que resulta de una actividad.",
+        "Solo el producto final que recibe el cliente.",
+        "El acta de constitución del proyecto únicamente."
+      ],
+      "correct_answer": "Un elemento físico documentable o un documento que resulta de una actividad.",
+      "explanation": "Los entregables son los resultados objetivos de las tareas o fases."
+    },
+    {
+      "id": "q22",
+      "type": "single_choice",
+      "question": "La finalidad del proceso de iniciación es:",
+      "options": [
+        "Desarrollar el cronograma detallado.",
+        "Obtener la autorización formal para comenzar el proyecto o fase.",
+        "Controlar la calidad de los entregables físicos.",
+        "Liberar los recursos de la organización."
+      ],
+      "correct_answer": "Obtener la autorización formal para comenzar el proyecto o fase.",
+      "explanation": "En el inicio se define la viabilidad y se autoriza el esfuerzo."
+    },
+    {
+      "id": "q23",
+      "type": "single_choice",
+      "question": "El proceso de planificación tiene como objetivo:",
+      "options": [
+        "Registrar las lecciones aprendidas finales.",
+        "Coordinar los recursos durante la construcción.",
+        "Diseñar el esquema y organización (plan) para cumplir los objetivos.",
+        "Formalizar la aceptación final del cliente."
+      ],
+      "correct_answer": "Diseñar el esquema y organización (plan) para cumplir los objetivos.",
+      "explanation": "Es la fase donde se define el \"cómo\", \"cuánto\" y \"cuándo\"."
+    },
+    {
+      "id": "q24",
+      "type": "single_choice",
+      "question": "El proceso de control es necesario:",
+      "options": [
+        "Solo al final del proyecto para verificar errores.",
+        "Únicamente si el cliente lo solicita expresamente.",
+        "A lo largo de todo el proyecto para medir desviaciones y actuar.",
+        "Solo en proyectos complejos de alta tecnología."
+      ],
+      "correct_answer": "A lo largo de todo el proyecto para medir desviaciones y actuar.",
+      "explanation": "El control monitoriza el estado frente al plan de forma continua."
+    },
+    {
+      "id": "q25",
+      "type": "single_choice",
+      "question": "¿Qué es falso respecto al proceso de cierre?",
+      "options": [
+        "Sirve para liberar ordenadamente los recursos.",
+        "Incluye registrar lecciones aprendidas.",
+        "Es el momento de realizar el análisis de viabilidad inicial.",
+        "Formaliza la aceptación del producto por el cliente."
+      ],
+      "correct_answer": "Es el momento de realizar el análisis de viabilidad inicial.",
+      "explanation": "El análisis de viabilidad pertenece a la fase de inicio, no al cierre."
+    },
+    {
+      "id": "q26",
+      "type": "single_choice",
+      "question": "La jerarquía organizacional correcta es:",
+      "options": [
+        "Actividad > Fase > Proyecto > Programa.",
+        "Proyecto > Actividad > Fase > Tarea.",
+        "Programa > Proyecto > Subproyecto > Fase > Activida",
+        "Empresa > Fase > Actividad > Objetivo."
+      ],
+      "correct_answer": "Programa > Proyecto > Subproyecto > Fase > Activida",
+      "explanation": "Es la estructura lógica para descomponer la complejidad."
+    },
+    {
+      "id": "q27",
+      "type": "single_choice",
+      "question": "La relación entre el ciclo de vida del producto y el del proyecto es:",
+      "options": [
+        "Son términos equivalentes.",
+        "El ciclo del proyecto suele estar contenido dentro de la fase de desarrollo del producto.",
+        "El ciclo del producto termina cuando empieza el proyecto.",
+        "No tienen ninguna relación jerárquica o temporal."
+      ],
+      "correct_answer": "El ciclo del proyecto suele estar contenido dentro de la fase de desarrollo del producto.",
+      "explanation": "El proyecto desarrolla el producto que luego entra en fase de operación o explotación."
+    },
+    {
+      "id": "q28",
+      "type": "single_choice",
+      "question": "La técnica de \"fast tracking\" consiste en:",
+      "options": [
+        "Aumentar los recursos para terminar antes.",
+        "Realizar fases o actividades en paralelo que normalmente serían secuenciales.",
+        "Eliminar actividades críticas para ahorrar tiempo.",
+        "Reducir la calidad para acelerar la entrega."
+      ],
+      "correct_answer": "Realizar fases o actividades en paralelo que normalmente serían secuenciales.",
+      "explanation": "Es una técnica de compresión del cronograma que aumenta el riesgo."
+    },
+    {
+      "id": "q29",
+      "type": "single_choice",
+      "question": "El coste de corregir errores a lo largo del ciclo de vida:",
+      "options": [
+        "Disminuye conforme se acerca el final.",
+        "Es constante en todas las fases.",
+        "Aumenta drásticamente conforme avanza el proyecto.",
+        "Se anula una vez finalizada la fase de diseño."
+      ],
+      "correct_answer": "Aumenta drásticamente conforme avanza el proyecto.",
+      "explanation": "Un error detectado tarde requiere más re-trabajo sobre elementos ya elaborados."
+    },
+    {
+      "id": "q30",
+      "type": "single_choice",
+      "question": "La adaptación (tailoring) en el proyecto busca:",
+      "options": [
+        "Seguir estrictamente el PMBOK sin cambios.",
+        "Equilibrar los factores para crear un entorno operativo práctico y adecuado al contexto.",
+        "Reducir el alcance para cumplir siempre con el tiempo.",
+        "Ignorar los requisitos del cliente si son muy complejos."
+      ],
+      "correct_answer": "Equilibrar los factores para crear un entorno operativo práctico y adecuado al contexto.",
+      "explanation": "La adaptación permite ajustar procesos y herramientas a la naturaleza específica de cada proyecto."
+    },
+    {
+      "id": "q31",
+      "type": "single_choice",
+      "question": "¿A qué grupo de procesos pertenece desarrollar el acta de constitución del proyecto?",
+      "options": [
+        "Monitorización y control.",
+        "Ejecución.",
+        "Iniciación.",
+        "Cierre."
+      ],
+      "correct_answer": "Iniciación.",
+      "explanation": "El acta de constitución es el documento que autoriza formalmente el proyecto y se crea en la fase de Inicio."
+    },
+    {
+      "id": "q32",
+      "type": "single_choice",
+      "question": "¿Cuál es la finalidad principal del proceso de iniciación?",
+      "options": [
+        "Desarrollar el cronograma detallado.",
+        "Obtener la autorización para comenzar el proyecto o fase.",
+        "Realizar el control de calidad de los entregables.",
+        "Cerrar los contratos con los proveedores."
+      ],
+      "correct_answer": "Obtener la autorización para comenzar el proyecto o fase.",
+      "explanation": "La iniciación busca reconocer que el proyecto debe comenzar y comprometer a la organización con él."
+    },
+    {
+      "id": "q33",
+      "type": "single_choice",
+      "question": "¿Qué elemento no puede faltar en un acta de constitución (Project Charter)?",
+      "options": [
+        "Presupuesto detallado por actividad.",
+        "Necesidades de negocio y justificación.",
+        "Diagrama de Gantt finalizado.",
+        "Plan de gestión de riesgos aprobado."
+      ],
+      "correct_answer": "Necesidades de negocio y justificación.",
+      "explanation": "El acta debe incluir el propósito, los objetivos de alto nivel y la justificación o Business Case."
+    },
+    {
+      "id": "q34",
+      "type": "single_choice",
+      "question": "¿Cuál es el significado de SMART para los objetivos del proyecto?",
+      "options": [
+        "Sencillo, Medible, Asignable, Realista, Temporal.",
+        "Específico, Medible, Alcanzable, Realista, Temporal.",
+        "Específico, Medible, Asignable, Realista, Temporal.",
+        "Significativo, Medible, Alcanzable, Realista, Total."
+      ],
+      "correct_answer": "Específico, Medible, Asignable, Realista, Temporal.",
+      "explanation": "En el contexto de la asignatura, la \"A\" se usa para \"Asignable\" para enfatizar la responsabilidad."
+    },
+    {
+      "id": "q35",
+      "type": "single_choice",
+      "question": "¿Cuándo es el mejor momento para asignar un director de proyectos?",
+      "options": [
+        "Durante la ejecución.",
+        "Al finalizar la planificación.",
+        "Lo antes posible, preferiblemente en el inicio.",
+        "Durante el cierre para las lecciones aprendidas."
+      ],
+      "correct_answer": "Lo antes posible, preferiblemente en el inicio.",
+      "explanation": "Asignar al director en el inicio le permite participar en la definición de objetivos y ganar autoridad desde el principio."
+    },
+    {
+      "id": "q36",
+      "type": "single_choice",
+      "question": "El proceso de Inicio está diseñado para:",
+      "options": [
+        "Definir el alcance técnico detallado.",
+        "Entender la necesidad y construir un plan de alto nivel para evaluar la viabilidad.",
+        "Ejecutar las actividades del camino crítico.",
+        "Firmar el acta de aceptación final."
+      ],
+      "correct_answer": "Entender la necesidad y construir un plan de alto nivel para evaluar la viabilidad.",
+      "explanation": "La iniciación permite afirmar si el proyecto es factible antes de comprometer recursos."
+    },
+    {
+      "id": "q37",
+      "type": "single_choice",
+      "question": "Los tipos de preguntas para entender las necesidades del cliente (método INDU) son:",
+      "options": [
+        "Información, Necesidades, Desarrollo y Utilidad.",
+        "Indirectas, Naturales, Directas y Únicas.",
+        "Información, Negociación, Decisión y Urgencia.",
+        "Informativas, Necesarias, Detalladas y Útiles."
+      ],
+      "correct_answer": "Información, Necesidades, Desarrollo y Utilidad.",
+      "explanation": "Este método estructurado permite pasar de necesidades implícitas a soluciones expresas."
+    },
+    {
+      "id": "q38",
+      "type": "single_choice",
+      "question": "¿Qué documento confiere al director del proyecto la autoridad para aplicar recursos al proyecto?",
+      "options": [
+        "El plan de proyecto.",
+        "El Business Case.",
+        "El Acta de Constitución.",
+        "La Matriz RAM."
+      ],
+      "correct_answer": "El Acta de Constitución.",
+      "explanation": "Es el documento emitido por el patrocinador que otorga autoridad formal al director."
+    },
+    {
+      "id": "q39",
+      "type": "single_choice",
+      "question": "¿Qué es el \"Business Case\" o Caso de Negocio?",
+      "options": [
+        "El contrato firmado con el cliente.",
+        "Una propuesta de valor que evalúa la conveniencia de invertir en el proyecto.",
+        "La lista de riesgos identificados.",
+        "El informe de rendimiento mensual."
+      ],
+      "correct_answer": "Una propuesta de valor que evalúa la conveniencia de invertir en el proyecto.",
+      "explanation": "Su objetivo es estimar el valor aportado al negocio y priorizar esfuerzos."
+    },
+    {
+      "id": "q40",
+      "type": "single_choice",
+      "question": "La reunión de arranque (Kick-off) tiene como objetivo:",
+      "options": [
+        "Realizar el cierre financiero del proyecto.",
+        "Lograr un entendimiento común de objetivos y obtener el compromiso de los interesados.",
+        "Identificar riesgos desconocidos-desconocidos.",
+        "Sustituir al director del proyecto si hay retrasos."
+      ],
+      "correct_answer": "Lograr un entendimiento común de objetivos y obtener el compromiso de los interesados.",
+      "explanation": "En esta reunión se presentan los planes y se lanza oficialmente la ejecución."
+    },
+    {
+      "id": "q41",
+      "type": "single_choice",
+      "question": "¿Qué se necesita además del acta para completar la iniciación?",
+      "options": [
+        "El presupuesto detallado.",
+        "Hipótesis y limitaciones documentadas.",
+        "Los manuales de usuario.",
+        "El acta de cierre de la fase previa."
+      ],
+      "correct_answer": "Hipótesis y limitaciones documentadas.",
+      "explanation": "Identificar limitaciones y asunciones es una tarea clave de la fase de inicio."
+    },
+    {
+      "id": "q42",
+      "type": "single_choice",
+      "question": "En el inicio, ¿cuál de estos criterios se usa para seleccionar un proyecto?",
+      "options": [
+        "La matriz de precedencias.",
+        "El análisis coste-beneficio.",
+        "El histograma de recursos.",
+        "La curva S."
+      ],
+      "correct_answer": "El análisis coste-beneficio.",
+      "explanation": "Es una de las habilidades y conocimientos necesarios para evaluar la viabilidad en el inicio."
+    },
+    {
+      "id": "q43",
+      "type": "single_choice",
+      "question": "La meta del proyecto se define como:",
+      "options": [
+        "La suma de todas las actividades del WBS.",
+        "Una declaración concisa de qué se intenta lograr y por qué.",
+        "El presupuesto total a la finalización (BAC).",
+        "El camino crítico del cronograma."
+      ],
+      "correct_answer": "Una declaración concisa de qué se intenta lograr y por qué.",
+      "explanation": "La meta orienta la solución sin entrar en detalles de entregables específicos aún."
+    },
+    {
+      "id": "q44",
+      "type": "single_choice",
+      "question": "Los criterios de éxito deben ser acordados con:",
+      "options": [
+        "Exclusivamente con el equipo técnico.",
+        "Solo con el patrocinador.",
+        "Con el cliente y con la propia organización.",
+        "Únicamente con los proveedores externos."
+      ],
+      "correct_answer": "Con el cliente y con la propia organización.",
+      "explanation": "Deben reflejar el valor medible que ambas partes esperan del proyecto."
+    },
+    {
+      "id": "q45",
+      "type": "single_choice",
+      "question": "Si un proyecto es muy novedoso y no hay experiencia previa, ¿cómo debe evaluarse la viabilidad?",
+      "options": [
+        "Ignorando la incertidumbre.",
+        "Mediante técnicas de evaluación y cuantificación de resultados por expertos.",
+        "Basándose únicamente en la intuición del comercial.",
+        "Esperando a terminar la ejecución para ver los resultados."
+      ],
+      "correct_answer": "Mediante técnicas de evaluación y cuantificación de resultados por expertos.",
+      "explanation": "Cuando no hay analogía posible, se requiere un estudio de viabilidad detallado para reducir el riesgo."
+    },
+    {
+      "id": "q46",
+      "type": "single_choice",
+      "question": "¿Qué áreas de conocimiento integra de forma explícita el plan básico del proyecto?",
+      "options": [
+        "Alcance, tiempo, coste y calidad.",
+        "Alcance, tiempo, riesgo y calidad.",
+        "Alcance, tiempo, coste y riesgo.",
+        "Calidad, RRHH, comunicación y adquisiciones."
+      ],
+      "correct_answer": "Alcance, tiempo, coste y riesgo.",
+      "explanation": "El plan básico se enfoca en estos cuatro ejes, considerando la calidad como una consecuencia."
+    },
+    {
+      "id": "q47",
+      "type": "single_choice",
+      "question": "¿Cuál es la función principal del plan de proyecto?",
+      "options": [
+        "Garantizar que no habrá cambios durante la ejecución.",
+        "Servir como mapa de carreteras para alcanzar los objetivos y contrastar la situación actual.",
+        "Asegurar el máximo beneficio para el director del proyecto.",
+        "Sustituir al acta de constitución."
+      ],
+      "correct_answer": "Servir como mapa de carreteras para alcanzar los objetivos y contrastar la situación actual.",
+      "explanation": "Permite analizar desviaciones, hacer previsiones de futuro y ejecutar acciones correctoras."
+    },
+    {
+      "id": "q48",
+      "type": "single_choice",
+      "question": "¿De qué área de conocimiento se puede prescindir en proyectos sencillos?",
+      "options": [
+        "De la calidad.",
+        "De los riesgos.",
+        "De ninguna; se deben incluir todas con la profundidad requerida por la complejida",
+        "De las adquisiciones."
+      ],
+      "correct_answer": "De ninguna; se deben incluir todas con la profundidad requerida por la complejida",
+      "explanation": "Todo proyecto requiere gestionar alcance, tiempo, coste, riesgo y calidad, aunque sea de forma simple."
+    },
+    {
+      "id": "q49",
+      "type": "single_choice",
+      "question": "¿Qué es lo primero que se debe conocer para preparar un plan realista?",
+      "options": [
+        "El coste de los recursos externos.",
+        "Lo que el cliente necesita.",
+        "La fecha de las vacaciones del equipo.",
+        "La marca del software de gestión."
+      ],
+      "correct_answer": "Lo que el cliente necesita.",
+      "explanation": "No basta con lo que el cliente desea; el éxito depende de satisfacer la necesidad real."
+    },
+    {
+      "id": "q50",
+      "type": "single_choice",
+      "question": "¿Qué son los artefactos de estrategia en planificación?",
+      "options": [
+        "Herramientas para engañar a la competencia.",
+        "Documentos como el Caso de Negocio o el Acta de Constitución que recogen información de alto nivel.",
+        "Virus informáticos para el control del cronograma.",
+        "Gráficos de barras que no cambian nunca."
+      ],
+      "correct_answer": "Documentos como el Caso de Negocio o el Acta de Constitución que recogen información de alto nivel.",
+      "explanation": "Son plantillas o documentos que definen la visión y el propósito antes o al inicio del proyecto."
+    },
+    {
+      "id": "q51",
+      "type": "single_choice",
+      "question": "El plan de proyecto es un proceso:",
+      "options": [
+        "Estático.",
+        "Iterativo.",
+        "Instantáneo.",
+        "Opcional."
+      ],
+      "correct_answer": "Iterativo.",
+      "explanation": "El plan puede ser actualizado de forma iterativa conforme se dispone de más información."
+    },
+    {
+      "id": "q52",
+      "type": "single_choice",
+      "question": "¿Qué entregables deben aparecer en la planificación del proyecto?",
+      "options": [
+        "Solo los productos finales del cliente.",
+        "Únicamente los documentos contractuales.",
+        "Todos los asociados al contrato, al producto y a la propia gestión del proyecto.",
+        "Solo los hitos de pago."
+      ],
+      "correct_answer": "Todos los asociados al contrato, al producto y a la propia gestión del proyecto.",
+      "explanation": "Para tener control total, se deben incluir entregables técnicos y de gestión (como el plan de riesgos)."
+    },
+    {
+      "id": "q53",
+      "type": "single_choice",
+      "question": "El \"plan integral\" de proyecto incluye, además del plan básico:",
+      "options": [
+        "La lista de la compra del director.",
+        "Calidad, RRHH, comunicación y adquisiciones.",
+        "Solo el diagrama de PERT.",
+        "Únicamente los correos electrónicos con el cliente."
+      ],
+      "correct_answer": "Calidad, RRHH, comunicación y adquisiciones.",
+      "explanation": "Estos planes de soporte completan la integración de todas las áreas de conocimiento."
+    },
+    {
+      "id": "q54",
+      "type": "single_choice",
+      "question": "¿Qué constituye una de las \"líneas base\" (baselines) para el control del proyecto?",
+      "options": [
+        "La lista de correos de los interesados.",
+        "El cronograma aprobado.",
+        "El currículum del director de proyectos.",
+        "La ubicación física del almacén."
+      ],
+      "correct_answer": "El cronograma aprobado.",
+      "explanation": "Junto con el alcance, el presupuesto y el plan de riesgos, forma el plan básico de control."
+    },
+    {
+      "id": "q55",
+      "type": "single_choice",
+      "question": "¿Cuál es el objetivo de descomponer el alcance en actividades?",
+      "options": [
+        "Hacer el proyecto más largo.",
+        "Facilitar la gestión, mejorar la visibilidad y asignar responsabilidades claras.",
+        "Evitar que el cliente entienda el trabajo.",
+        "Reducir la calidad del producto final."
+      ],
+      "correct_answer": "Facilitar la gestión, mejorar la visibilidad y asignar responsabilidades claras.",
+      "explanation": "Permite manejar la complejidad y asignar el trabajo a unidades responsables (RAM)."
+    },
+    {
+      "id": "q56",
+      "type": "single_choice",
+      "question": "¿Qué herramienta permite visualizar cómo se gasta el presupuesto en función del tiempo?",
+      "options": [
+        "El diagrama de red.",
+        "La Curva S.",
+        "La matriz RAM.",
+        "La lista de interesados."
+      ],
+      "correct_answer": "La Curva S.",
+      "explanation": "Es la representación del presupuesto dinámico unida al cronograma."
+    },
+    {
+      "id": "q57",
+      "type": "single_choice",
+      "question": "Aproximadamente, ¿qué porcentaje de los riesgos pueden eliminarse con un buen plan de proyecto?",
+      "options": [
+        "El 10%.",
+        "El 50%.",
+        "El 85%.",
+        "El 100%."
+      ],
+      "correct_answer": "El 85%.",
+      "explanation": "Una planificación adecuada previene la mayoría de los problemas de gestión."
+    },
+    {
+      "id": "q58",
+      "type": "single_choice",
+      "question": "¿Quién debe construir el plan de proyecto para maximizar el compromiso?",
+      "options": [
+        "El director de proyectos en solitario.",
+        "El equipo de proyecto animado por el líder.",
+        "Solo el departamento de ventas.",
+        "El cliente sin consultar al equipo."
+      ],
+      "correct_answer": "El equipo de proyecto animado por el líder.",
+      "explanation": "El compromiso aumenta cuando el propio equipo desarrolla la estrategia para el éxito."
+    },
+    {
+      "id": "q59",
+      "type": "single_choice",
+      "question": "El plan de gestión del cambio define:",
+      "options": [
+        "Cómo sustituir al equipo si no trabaja.",
+        "Cómo se manejarán y seguirán las peticiones de cambio de forma adecuada.",
+        "El precio final del producto.",
+        "La fecha de fin del proyecto."
+      ],
+      "correct_answer": "Cómo se manejarán y seguirán las peticiones de cambio de forma adecuada.",
+      "explanation": "Es vital para no perder la integridad de las líneas base ante solicitudes externas o internas."
+    },
+    {
+      "id": "q60",
+      "type": "single_choice",
+      "question": "¿Qué se utiliza como referencia para la medición del desempeño (línea base)?",
+      "options": [
+        "El plan inicial aprobado con los cambios aprobados.",
+        "Los deseos del cliente en cada reunión.",
+        "Solo el presupuesto inicial sin cambios.",
+        "El horario de entrada y salida del personal."
+      ],
+      "correct_answer": "El plan inicial aprobado con los cambios aprobados.",
+      "explanation": "Se compara el desempeño real contra este plan para detectar variaciones."
+    },
+    {
+      "id": "q61",
+      "type": "single_choice",
+      "question": "¿Cómo se define la Gestión del Alcance del proyecto?",
+      "options": [
+        "Asegurar que se haga el máximo trabajo posible para satisfacer al cliente.",
+        "Asegurar que el proyecto incluya todo el trabajo necesario y solo el trabajo necesario.",
+        "Definir únicamente las funciones técnicas del producto.",
+        "Realizar el seguimiento de los costes de personal."
+      ],
+      "correct_answer": "Asegurar que el proyecto incluya todo el trabajo necesario y solo el trabajo necesario.",
+      "explanation": "El objetivo es evitar el trabajo extra no planificado que consume recursos sin control."
+    },
+    {
+      "id": "q62",
+      "type": "single_choice",
+      "question": "¿Qué diferencia hay entre el alcance del producto y el del proyecto?",
+      "options": [
+        "Son términos equivalentes.",
+        "El del producto son las funciones; el del proyecto es el trabajo para entregarlo.",
+        "El del producto es para el cliente; el del proyecto es para el director.",
+        "El del producto es estático; el del proyecto es dinámico."
+      ],
+      "correct_answer": "El del producto son las funciones; el del proyecto es el trabajo para entregarlo.",
+      "explanation": "El alcance del proyecto incluye la descripción del producto y el modo de medirlo."
+    },
+    {
+      "id": "q63",
+      "type": "single_choice",
+      "question": "¿Qué es la EDT o WBS?",
+      "options": [
+        "Un software para hacer facturas.",
+        "Una descomposición jerárquica del alcance total del trabajo basada en entregables.",
+        "Una lista de los riesgos más graves del proyecto.",
+        "El organigrama de la empresa del cliente."
+      ],
+      "correct_answer": "Una descomposición jerárquica del alcance total del trabajo basada en entregables.",
+      "explanation": "Subdivide el trabajo en componentes más pequeños y manejables."
+    },
+    {
+      "id": "q64",
+      "type": "single_choice",
+      "question": "¿Cuál es la \"regla del 100%\" en una EDT/WBS?",
+      "options": [
+        "Que el director debe trabajar el 100% de su tiempo.",
+        "Que la EDT debe incluir la totalidad de los entregables y el trabajo del proyecto.",
+        "Que el cliente debe pagar el 100% al inicio.",
+        "Que el 100% de los riesgos deben ser evitados."
+      ],
+      "correct_answer": "Que la EDT debe incluir la totalidad de los entregables y el trabajo del proyecto.",
+      "explanation": "Captura todo el alcance, incluyendo la gestión y el aspecto contractual."
+    },
+    {
+      "id": "q65",
+      "type": "single_choice",
+      "question": "¿Qué nivel de detalle debe tener la EDT/WBS para parar la descomposición?",
+      "options": [
+        "Cuando el director se canse de escribir.",
+        "Cuando se llegue a actividades asignables a un único grupo funcional (paquete de trabajo).",
+        "Cuando se tengan más de 1000 tareas.",
+        "Solo un nivel para no complicar al cliente."
+      ],
+      "correct_answer": "Cuando se llegue a actividades asignables a un único grupo funcional (paquete de trabajo).",
+      "explanation": "Permite que el responsable funcional realice estimaciones precisas de tiempo y coste."
+    },
+    {
+      "id": "q66",
+      "type": "single_choice",
+      "question": "¿Qué documento proporciona una descripción detallada de cada elemento de la EDT?",
+      "options": [
+        "El cronograma.",
+        "El diccionario de la EDT.",
+        "El acta de constitución.",
+        "La Curva S."
+      ],
+      "correct_answer": "El diccionario de la EDT.",
+      "explanation": "Asegura un entendimiento uniforme y documenta las características de cada tarea."
+    },
+    {
+      "id": "q67",
+      "type": "single_choice",
+      "question": "La verificación del alcance consiste en:",
+      "options": [
+        "Comprobar que el producto no tiene errores técnicos.",
+        "Formalizar la aceptación de los entregables completados con el cliente.",
+        "Pagar a los proveedores tras recibir el material.",
+        "Replanificar el proyecto por falta de fondos."
+      ],
+      "correct_answer": "Formalizar la aceptación de los entregables completados con el cliente.",
+      "explanation": "Se centra en la aceptación del trabajo realizado para cerrar fases o el proyecto."
+    },
+    {
+      "id": "q68",
+      "type": "single_choice",
+      "question": "Una pobre definición del alcance suele provocar:",
+      "options": [
+        "Ahorros inesperados en el presupuesto.",
+        "Felicitaciones del patrocinador.",
+        "Elevados costes finales debido a cambios inevitables y re-trabajos.",
+        "Que el proyecto termine antes de lo previsto."
+      ],
+      "correct_answer": "Elevados costes finales debido a cambios inevitables y re-trabajos.",
+      "explanation": "La indefinición genera incertidumbre y malestar, afectando a la productividad."
+    },
+    {
+      "id": "q69",
+      "type": "single_choice",
+      "question": "¿Qué es una \"hipótesis\" en el alcance del proyecto?",
+      "options": [
+        "Una mentira para convencer al cliente.",
+        "Un factor que se considera verdadero para propósitos de la planificación.",
+        "Una restricción legal obligatoria.",
+        "El resultado final del proyecto."
+      ],
+      "correct_answer": "Un factor que se considera verdadero para propósitos de la planificación.",
+      "explanation": "Las hipótesis se validan a lo largo del proyecto y conllevan un grado de riesgo."
+    },
+    {
+      "id": "q70",
+      "type": "single_choice",
+      "question": "¿Qué se debe hacer si el cliente pide un cambio de alcance avanzado el proyecto con alto coste e impacto?",
+      "options": [
+        "Aceptarlo sin más para fidelizar al cliente.",
+        "Rechazarlo definitivamente.",
+        "No aceptarlo en el proyecto actual y negociar un nuevo proyecto posterior.",
+        "Hacerlo en secreto para que el patrocinador no se entere."
+      ],
+      "correct_answer": "No aceptarlo en el proyecto actual y negociar un nuevo proyecto posterior.",
+      "explanation": "Evita destruir el trabajo en curso y protege los objetivos del proyecto original."
+    },
+    {
+      "id": "q71",
+      "type": "single_choice",
+      "question": "La intersección entre la WBS y la OBS da lugar a:",
+      "options": [
+        "El cronograma de hitos.",
+        "La Matriz de Asignación de Responsabilidades (RAM).",
+        "El diagrama de precedencias.",
+        "El informe de variaciones."
+      ],
+      "correct_answer": "La Matriz de Asignación de Responsabilidades (RAM).",
+      "explanation": "Relaciona el trabajo (qué) con la organización (quién)."
+    },
+    {
+      "id": "q72",
+      "type": "single_choice",
+      "question": "¿Qué sucede con el coste de corregir errores según avanza el proyecto?",
+      "options": [
+        "Disminuye porque ya se conoce el producto.",
+        "Se mantiene constante.",
+        "Aumenta drásticamente.",
+        "Desaparece una vez firmado el alcance."
+      ],
+      "correct_answer": "Aumenta drásticamente.",
+      "explanation": "Un error detectado tarde requiere más re-trabajo sobre elementos ya elaborados."
+    },
+    {
+      "id": "q73",
+      "type": "single_choice",
+      "question": "El enunciado del alcance es la base del acuerdo entre:",
+      "options": [
+        "La empresa ejecutora y sus empleados.",
+        "El director de proyectos y el departamento de compras.",
+        "La organización ejecutora y el cliente.",
+        "El patrocinador y los accionistas."
+      ],
+      "correct_answer": "La organización ejecutora y el cliente.",
+      "explanation": "Identifica objetivos, entregables y criterios de aceptación acordados."
+    },
+    {
+      "id": "q74",
+      "type": "single_choice",
+      "question": "Un entregable es:",
+      "options": [
+        "Una promesa verbal.",
+        "Un elemento físico documentable o un documento.",
+        "Solo el beneficio económico final.",
+        "El equipo humano del proyecto."
+      ],
+      "correct_answer": "Un elemento físico documentable o un documento.",
+      "explanation": "Son los resultados objetivos de las actividades o fases."
+    },
+    {
+      "id": "q75",
+      "type": "single_choice",
+      "question": "¿Qué técnica se usa inicialmente para listar las actividades del alcance?",
+      "options": [
+        "Simulación de Montecarlo.",
+        "Tormenta de ideas (brainstorming).",
+        "Auditoría de calida",
+        "Análisis del valor ganado."
+      ],
+      "correct_answer": "Tormenta de ideas (brainstorming).",
+      "explanation": "Permite que todos los miembros aporten su experiencia para completar la lista de trabajos."
+    },
+    {
+      "id": "q76",
+      "type": "single_choice",
+      "question": "¿Cuál es la diferencia entre duración y esfuerzo?",
+      "options": [
+        "Son lo mismo.",
+        "La duración es tiempo calendario; el esfuerzo es el total de horas de trabajo sumando recursos.",
+        "La duración es para el cliente; el esfuerzo es para el equipo.",
+        "La duración siempre es mayor que el esfuerzo."
+      ],
+      "correct_answer": "La duración es tiempo calendario; el esfuerzo es el total de horas de trabajo sumando recursos.",
+      "explanation": "Una mudanza de 1 día (duración) puede requerir 15 horas de trabajo (esfuerzo)."
+    },
+    {
+      "id": "q77",
+      "type": "single_choice",
+      "question": "¿Cómo se define el \"Camino Crítico\"?",
+      "options": [
+        "El camino con las actividades más peligrosas.",
+        "La secuencia de actividades de mayor duración que determina el fin del proyecto.",
+        "El conjunto de tareas que el director de proyectos hace personalmente.",
+        "El camino con las holguras más grandes."
+      ],
+      "correct_answer": "La secuencia de actividades de mayor duración que determina el fin del proyecto.",
+      "explanation": "Es el camino donde todas las actividades tienen holgura cero; cualquier retraso aquí retrasa el proyecto."
+    },
+    {
+      "id": "q78",
+      "type": "single_choice",
+      "question": "¿Qué indica un margen total o holgura igual a cero en una actividad?",
+      "options": [
+        "Que la actividad no consume recursos.",
+        "Que la actividad es crítica.",
+        "Que la actividad ha sido cancelada.",
+        "Que el presupuesto de la actividad es cero."
+      ],
+      "correct_answer": "Que la actividad es crítica.",
+      "explanation": "Las actividades críticas no pueden retrasarse sin afectar a la fecha final del proyecto."
+    },
+    {
+      "id": "q79",
+      "type": "single_choice",
+      "question": "La relación de dependencia más habitual entre actividades es:",
+      "options": [
+        "Comienzo a Comienzo (SS).",
+        "Fin a Fin (FF).",
+        "Fin a Comienzo (FS).",
+        "Comienzo a Fin (SF)."
+      ],
+      "correct_answer": "Fin a Comienzo (FS).",
+      "explanation": "Significa que la actividad A debe terminar para que la B pueda empezar."
+    },
+    {
+      "id": "q80",
+      "type": "single_choice",
+      "question": "¿En qué consiste la técnica de \"Crashing\"?",
+      "options": [
+        "En cancelar el proyecto por falta de tiempo.",
+        "En reducir la duración de una actividad aumentando recursos o cambiando tecnología.",
+        "En ignorar los retrasos y seguir el plan original.",
+        "En culpar al equipo de los problemas de tiempo."
+      ],
+      "correct_answer": "En reducir la duración de una actividad aumentando recursos o cambiando tecnología.",
+      "explanation": "Es una técnica de compresión del cronograma para cumplir plazos."
+    },
+    {
+      "id": "q81",
+      "type": "single_choice",
+      "question": "¿Qué muestra un diagrama de Gantt que un diagrama de red no muestra con claridad?",
+      "options": [
+        "Las relaciones lógicas de dependencia.",
+        "El camino crítico matemático.",
+        "La distribución temporal de las actividades en un calendario.",
+        "Las holguras negativas."
+      ],
+      "correct_answer": "La distribución temporal de las actividades en un calendario.",
+      "explanation": "Refleja muy bien la duración y el solapamiento visual en escala de tiempo."
+    },
+    {
+      "id": "q82",
+      "type": "single_choice",
+      "question": "Un \"Hito\" o jalón se caracteriza por:",
+      "options": [
+        "Tener una duración muy larga.",
+        "Ser una actividad de duración cero que marca un evento importante.",
+        "Consumir la mayoría de los recursos del proyecto.",
+        "Ser opcional en la planificación."
+      ],
+      "correct_answer": "Ser una actividad de duración cero que marca un evento importante.",
+      "explanation": "Sirven para marcar hitos de pago, entregas clave o fin de fases."
+    },
+    {
+      "id": "q83",
+      "type": "single_choice",
+      "question": "¿Qué sucede si se aplica un retraso (lag) de 2 días en una relación Fin-Comienzo?",
+      "options": [
+        "La actividad sucesora empieza 2 días antes de que termine la predecesora.",
+        "La actividad sucesora empieza 2 días después de que termine la predecesora.",
+        "El proyecto se cancela durante 2 días.",
+        "La duración de la actividad predecesora aumenta 2 días."
+      ],
+      "correct_answer": "La actividad sucesora empieza 2 días después de que termine la predecesora.",
+      "explanation": "Un \"lag\" es un tiempo de espera obligatorio (ej. secado de pintura)."
+    },
+    {
+      "id": "q84",
+      "type": "single_choice",
+      "question": "La técnica de \"Fast Tracking\" implica:",
+      "options": [
+        "Ir más rápido trabajando horas extras.",
+        "Realizar actividades en paralelo que normalmente serían secuenciales.",
+        "Reducir el alcance para terminar antes.",
+        "Eliminar las actividades del camino crítico."
+      ],
+      "correct_answer": "Realizar actividades en paralelo que normalmente serían secuenciales.",
+      "explanation": "Permite acortar el proyecto pero aumenta el riesgo de re-trabajo."
+    },
+    {
+      "id": "q85",
+      "type": "single_choice",
+      "question": "¿Cuál es el orden lógico para gestionar el tiempo?",
+      "options": [
+        "Estimar duración, secuenciar, definir actividades.",
+        "Definir actividades, secuenciar, estimar recursos y duración, desarrollar cronograma.",
+        "Calcular presupuesto, dibujar Gantt, definir alcance.",
+        "Secuenciar, definir actividades, controlar cambios."
+      ],
+      "correct_answer": "Definir actividades, secuenciar, estimar recursos y duración, desarrollar cronograma.",
+      "explanation": "Es el flujo metodológico para obtener un plan de tiempos realista."
+    },
+    {
+      "id": "q86",
+      "type": "single_choice",
+      "question": "La precisión de las estimaciones de tiempo:",
+      "options": [
+        "Es máxima al inicio del proyecto.",
+        "No depende de la experiencia del equipo.",
+        "Aumenta a medida que se dispone de más información y se avanza en el ciclo de vida.",
+        "Es irrelevante si se tiene un buen software."
+      ],
+      "correct_answer": "Aumenta a medida que se dispone de más información y se avanza en el ciclo de vida.",
+      "explanation": "El refinamiento sucesivo reduce el margen de error."
+    },
+    {
+      "id": "q87",
+      "type": "single_choice",
+      "question": "¿Qué indica un valor de SPI (Índice de Rendimiento del Cronograma) menor que 1?",
+      "options": [
+        "El proyecto va adelantado.",
+        "El proyecto va retrasado respecto a la planificación.",
+        "El proyecto está gastando menos dinero de lo previsto.",
+        "La calidad del producto es excelente."
+      ],
+      "correct_answer": "El proyecto va retrasado respecto a la planificación.",
+      "explanation": "Significa que el valor ganado es menor que el valor planificado (EV < PV)."
+    },
+    {
+      "id": "q88",
+      "type": "single_choice",
+      "question": "El método PERT para estimar duraciones usa tres valores:",
+      "options": [
+        "Mínimo, Máximo y Media aritmética.",
+        "Optimista, Más probable y Pesimista.",
+        "Inicial, Intermedio y Final.",
+        "Técnico, Comercial y de Gestión."
+      ],
+      "correct_answer": "Optimista, Más probable y Pesimista.",
+      "explanation": "Aplica una fórmula estadística (O+4M+P)/6 para obtener un valor ponderado."
+    },
+    {
+      "id": "q89",
+      "type": "single_choice",
+      "question": "La nivelación de recursos puede provocar:",
+      "options": [
+        "Un aumento de la duración del proyecto.",
+        "Que el proyecto sea gratuito.",
+        "La eliminación del camino crítico.",
+        "Que el cliente asuma la dirección."
+      ],
+      "correct_answer": "Un aumento de la duración del proyecto.",
+      "explanation": "Al ajustar actividades a la disponibilidad de recursos, estas suelen retrasarse."
+    },
+    {
+      "id": "q90",
+      "type": "single_choice",
+      "question": "¿Quién debe realizar las estimaciones de duración de las actividades?",
+      "options": [
+        "Solo el director de proyectos sin consultar.",
+        "El cliente externo.",
+        "El departamento o grupo funcional que ejecutará el trabajo.",
+        "El departamento de contabilidad."
+      ],
+      "correct_answer": "El departamento o grupo funcional que ejecutará el trabajo.",
+      "explanation": "Son los que poseen el conocimiento técnico y la experiencia real."
+    },
+    {
+      "id": "q91",
+      "type": "single_choice",
+      "question": "¿Cuál es el objeto de la gestión de los costes?",
+      "options": [
+        "Gastar el presupuesto lo más rápido posible.",
+        "Asegurar que el proyecto se completa sin exceder el presupuesto aprobado.",
+        "Ocultar los gastos innecesarios al cliente.",
+        "Pagar solo a los recursos internos."
+      ],
+      "correct_answer": "Asegurar que el proyecto se completa sin exceder el presupuesto aprobado.",
+      "explanation": "El objetivo es cumplir con el compromiso económico fijado en la línea base."
+    },
+    {
+      "id": "q92",
+      "type": "single_choice",
+      "question": "La \"Curva S\" de costes representa:",
+      "options": [
+        "La satisfacción del cliente en forma de S.",
+        "El coste acumulado del proyecto según transcurre el tiempo.",
+        "La secuencia lógica de las actividades del cronograma.",
+        "El organigrama de la oficina de proyectos."
+      ],
+      "correct_answer": "El coste acumulado del proyecto según transcurre el tiempo.",
+      "explanation": "Une el cronograma con el presupuesto por actividad para ver el flujo de caja previsto."
+    },
+    {
+      "id": "q93",
+      "type": "single_choice",
+      "question": "En el Método del Valor Ganado (EVM), el AC (Actual Cost) es:",
+      "options": [
+        "El dinero que pensábamos gastar hoy.",
+        "El coste real incurrido por el trabajo realizado realmente.",
+        "El valor del trabajo que deberíamos haber terminado.",
+        "El beneficio esperado al final del proyecto."
+      ],
+      "correct_answer": "El coste real incurrido por el trabajo realizado realmente.",
+      "explanation": "Es lo que el proyecto ha costado \"de bolsillo\" hasta la fecha de medición."
+    },
+    {
+      "id": "q94",
+      "type": "single_choice",
+      "question": "Si el CV (Variación de Coste) es negativo (EV - AC < 0), significa que:",
+      "options": [
+        "El proyecto va bajo presupuesto.",
+        "El proyecto va con sobrecoste.",
+        "El proyecto va adelantado en tiempo.",
+        "El proyecto es de muy alta calidad."
+      ],
+      "correct_answer": "El proyecto va con sobrecoste.",
+      "explanation": "Se ha gastado más dinero (AC) del valor presupuestado del trabajo hecho (EV)."
+    },
+    {
+      "id": "q95",
+      "type": "single_choice",
+      "question": "¿Qué es la \"Reserva de Gestión\" (Management Reserve)?",
+      "options": [
+        "Dinero para las cenas del equipo.",
+        "Partida para cubrir riesgos \"desconocidos-desconocidos\".",
+        "El presupuesto de las actividades del camino crítico.",
+        "El margen de beneficio del cliente."
+      ],
+      "correct_answer": "Partida para cubrir riesgos \"desconocidos-desconocidos\".",
+      "explanation": "Cubre eventos imprevistos que no fueron identificados en el plan de riesgos."
+    },
+    {
+      "id": "q96",
+      "type": "single_choice",
+      "question": "El CPI (Índice de Rendimiento del Coste) se calcula como:",
+      "options": [
+        "EV / AC.",
+        "AC / EV.",
+        "EV - PV.",
+        "BAC / SPI."
+      ],
+      "correct_answer": "EV / AC.",
+      "explanation": "Un CPI de 0,9 significa que por cada euro gastado solo obtenemos 90 céntimos de valor."
+    },
+    {
+      "id": "q97",
+      "type": "single_choice",
+      "question": "La \"Reserva de Contingencia\" se utiliza generalmente para:",
+      "options": [
+        "Comprar material de oficina.",
+        "Cubrir riesgos \"conocidos-desconocidos\" de alcance o calidad.",
+        "Pagar las horas extras no planificadas del director.",
+        "Sobornar a los inspectores de calidad."
+      ],
+      "correct_answer": "Cubrir riesgos \"conocidos-desconocidos\" de alcance o calidad.",
+      "explanation": "Es dinero guardado para afrontar riesgos identificados si llegan a ocurrir."
+    },
+    {
+      "id": "q98",
+      "type": "single_choice",
+      "question": "Un coste \"directo\" es aquel que:",
+      "options": [
+        "No se puede asignar a un proyecto específico.",
+        "Es directamente atribuible al trabajo en el proyecto.",
+        "Varía según el humor del director de proyectos.",
+        "Se paga siempre al final del proyecto."
+      ],
+      "correct_answer": "Es directamente atribuible al trabajo en el proyecto.",
+      "explanation": "Ejemplos son los materiales usados o el sueldo de los técnicos del equipo."
+    },
+    {
+      "id": "q99",
+      "type": "single_choice",
+      "question": "El criterio de imputación de costes \"0/100\" significa que:",
+      "options": [
+        "No se paga nada al principio y el 100% al finalizar la actividad.",
+        "Se paga el 100% al empezar.",
+        "Solo se paga si el cliente está satisfecho al 100%.",
+        "El coste es cero si hay retrasos."
+      ],
+      "correct_answer": "No se paga nada al principio y el 100% al finalizar la actividad.",
+      "explanation": "Es el criterio recomendado para actividades de corta duración."
+    },
+    {
+      "id": "q100",
+      "type": "single_choice",
+      "question": "La estimación de costes \"Bottom-Up\" (de abajo hacia arriba) es:",
+      "options": [
+        "La más rápida y barata.",
+        "La más precisa, basada en el análisis detallado de actividades.",
+        "Realizada únicamente por la alta dirección.",
+        "Menos costosa que la estimación por analogía."
+      ],
+      "correct_answer": "La más precisa, basada en el análisis detallado de actividades.",
+      "explanation": "Suma los costes de los niveles más bajos de la EDT hasta llegar al total."
+    },
+    {
+      "id": "q101",
+      "type": "single_choice",
+      "question": "¿Qué representa el BAC (Budget at Completion)?",
+      "options": [
+        "El dinero gastado hasta hoy.",
+        "El presupuesto total planificado para el proyecto completo.",
+        "El beneficio neto esperado.",
+        "El coste de los riesgos evitados."
+      ],
+      "correct_answer": "El presupuesto total planificado para el proyecto completo.",
+      "explanation": "Es el valor total de la línea base de costes al finalizar el proyecto."
+    },
+    {
+      "id": "q102",
+      "type": "single_choice",
+      "question": "Un coste \"fijo\" es aquel que:",
+      "options": [
+        "Cambia cada mes según la inflación.",
+        "Se mantiene igual independientemente de la carga de trabajo o producción.",
+        "Solo se paga si el proyecto tiene éxito.",
+        "Es ilegal según el código deontológico."
+      ],
+      "correct_answer": "Se mantiene igual independientemente de la carga de trabajo o producción.",
+      "explanation": "Ejemplo: el alquiler de una excavadora por un precio cerrado por semana."
+    },
+    {
+      "id": "q103",
+      "type": "single_choice",
+      "question": "El método de Valor Ganado (EVM) integra:",
+      "options": [
+        "Solo el dinero y los riesgos.",
+        "Alcance, cronograma y recursos.",
+        "El currículum del equipo y las facturas de luz.",
+        "Los deseos del cliente y la opinión pública."
+      ],
+      "correct_answer": "Alcance, cronograma y recursos.",
+      "explanation": "Permite medir el rendimiento y el avance de forma objetiva."
+    },
+    {
+      "id": "q104",
+      "type": "single_choice",
+      "question": "¿Qué es el \"Valor Planeado\" (PV / BCWS)?",
+      "options": [
+        "El coste real de las facturas pagadas.",
+        "El coste presupuestado del trabajo que estaba programado realizar a una fecha.",
+        "El ahorro conseguido mediante subcontratación.",
+        "El valor de mercado del producto final."
+      ],
+      "correct_answer": "El coste presupuestado del trabajo que estaba programado realizar a una fecha.",
+      "explanation": "Es el valor que la Curva S dice que deberíamos haber gastado hoy."
+    },
+    {
+      "id": "q105",
+      "type": "single_choice",
+      "question": "La Variación de Cronograma (SV) en términos de EVM se calcula como:",
+      "options": [
+        "EV / PV.",
+        "EV - PV.",
+        "PV - AC.",
+        "BAC - EAC."
+      ],
+      "correct_answer": "EV - PV.",
+      "explanation": "Un SV negativo indica que hemos hecho menos trabajo del planificado."
+    },
+    {
+      "id": "q106",
+      "type": "single_choice",
+      "question": "¿Cómo define el PMBOK un \"Riesgo\"?",
+      "options": [
+        "Una certeza de que el proyecto fallará.",
+        "Un evento incierto que, si ocurre, tiene un efecto positivo o negativo en los objetivos.",
+        "El coste de las multas por retraso.",
+        "La falta de honradez del director de proyectos."
+      ],
+      "correct_answer": "Un evento incierto que, si ocurre, tiene un efecto positivo o negativo en los objetivos.",
+      "explanation": "El riesgo incluye tanto amenazas (negativo) como oportunidades (positivo)."
+    },
+    {
+      "id": "q107",
+      "type": "single_choice",
+      "question": "¿Qué es la \"Incertidumbre\"?",
+      "options": [
+        "La presencia de muchos competidores.",
+        "Una situación caracterizada por la ausencia de información sobre impacto o probabilidad.",
+        "El beneficio esperado de un riesgo positivo.",
+        "La fecha exacta de fin del proyecto."
+      ],
+      "correct_answer": "Una situación caracterizada por la ausencia de información sobre impacto o probabilidad.",
+      "explanation": "Es la falta de datos para predecir un resultado esperado."
+    },
+    {
+      "id": "q108",
+      "type": "single_choice",
+      "question": "El Valor Monetario Esperado (VME) se calcula multiplicando:",
+      "options": [
+        "Coste por Tiempo.",
+        "Probabilidad por Impacto.",
+        "Alcance por Calida",
+        "Personal por Horas."
+      ],
+      "correct_answer": "Probabilidad por Impacto.",
+      "explanation": "Es la herramienta clave para cuantificar y priorizar riesgos."
+    },
+    {
+      "id": "q109",
+      "type": "single_choice",
+      "question": "La estrategia de respuesta a una amenaza \"Evitar\" consiste en:",
+      "options": [
+        "Ignorar el riesgo y esperar que no pase.",
+        "Eliminar la amenaza eliminando su causa (ej. reducir el alcance).",
+        "Contratar un seguro para que otro pague.",
+        "Reducir solo la probabilidad de que ocurra."
+      ],
+      "correct_answer": "Eliminar la amenaza eliminando su causa (ej. reducir el alcance).",
+      "explanation": "Busca que la probabilidad del impacto se haga cero."
+    },
+    {
+      "id": "q110",
+      "type": "single_choice",
+      "question": "Contratar un seguro es un ejemplo de la estrategia de:",
+      "options": [
+        "Mitigación.",
+        "Aceptación.",
+        "Transferencia.",
+        "Evitar."
+      ],
+      "correct_answer": "Transferencia.",
+      "explanation": "Se traslada la responsabilidad del impacto financiero a un tercero."
+    },
+    {
+      "id": "q111",
+      "type": "single_choice",
+      "question": "¿Qué se debe hacer con los riesgos no críticos (de baja prioridad)?",
+      "options": [
+        "Borrarlos de la lista.",
+        "Documentarlos y revisarlos periódicamente en una lista de supervisión.",
+        "Aplicarles inmediatamente un seguro caro.",
+        "Detener el proyecto hasta que desaparezcan."
+      ],
+      "correct_answer": "Documentarlos y revisarlos periódicamente en una lista de supervisión.",
+      "explanation": "Se monitorizan para detectar si su importancia crece con el tiempo."
+    },
+    {
+      "id": "q112",
+      "type": "single_choice",
+      "question": "Una estrategia para riesgos positivos (oportunidades) es:",
+      "options": [
+        "Mitigar.",
+        "Explotar.",
+        "Transferir.",
+        "Evitar."
+      ],
+      "correct_answer": "Explotar.",
+      "explanation": "Busca eliminar la incertidumbre para asegurar que la oportunidad se concrete."
+    },
+    {
+      "id": "q113",
+      "type": "single_choice",
+      "question": "Los \"disparadores\" (triggers) de riesgo son:",
+      "options": [
+        "Los miembros del equipo que se quejan.",
+        "Síntomas o señales de advertencia de que un riesgo ha ocurrido o va a ocurrir.",
+        "Los botones para borrar el cronograma.",
+        "Las facturas del cliente."
+      ],
+      "correct_answer": "Síntomas o señales de advertencia de que un riesgo ha ocurrido o va a ocurrir.",
+      "explanation": "Indican el momento de activar los planes de contingencia (ej. el canario en la mina)."
+    },
+    {
+      "id": "q114",
+      "type": "single_choice",
+      "question": "Un análisis \"cualitativo\" de riesgos sirve para:",
+      "options": [
+        "Calcular el coste exacto en euros de cada riesgo.",
+        "Priorizar los riesgos evaluando su probabilidad e impacto (ej. bajo, medio, alto).",
+        "Eliminar al director de proyectos.",
+        "Definir el color de las cajas del WBS."
+      ],
+      "correct_answer": "Priorizar los riesgos evaluando su probabilidad e impacto (ej. bajo, medio, alto).",
+      "explanation": "Permite centrar la atención en los riesgos de mayor prioridad."
+    },
+    {
+      "id": "q115",
+      "type": "single_choice",
+      "question": "La \"Aceptación Activa\" de un riesgo implica:",
+      "options": [
+        "No hacer nada en absoluto.",
+        "Desarrollar un plan de contingencia para ejecutar si el riesgo ocurre.",
+        "Cambiar todo el plan de proyecto preventivamente.",
+        "Renunciar al proyecto."
+      ],
+      "correct_answer": "Desarrollar un plan de contingencia para ejecutar si el riesgo ocurre.",
+      "explanation": "Se decide no cambiar el plan original pero se está listo para reaccionar."
+    },
+    {
+      "id": "q116",
+      "type": "single_choice",
+      "question": "¿Qué sucede con el riesgo a lo largo del ciclo de vida del proyecto?",
+      "options": [
+        "Aumenta constantemente.",
+        "Es nulo al principio y máximo al final.",
+        "Disminuye conforme se ejecutan las actividades y fases.",
+        "Solo existe en la fase de cierre."
+      ],
+      "correct_answer": "Disminuye conforme se ejecutan las actividades y fases.",
+      "explanation": "La incertidumbre baja al ir completando el trabajo planificado."
+    },
+    {
+      "id": "q117",
+      "type": "single_choice",
+      "question": "La estrategia de respuesta \"Mitigación\" busca:",
+      "options": [
+        "Eliminar la causa del riesgo por completo.",
+        "Reducir la probabilidad y/o las consecuencias del riesgo.",
+        "Que el cliente asuma el riesgo.",
+        "Aumentar el beneficio del director."
+      ],
+      "correct_answer": "Reducir la probabilidad y/o las consecuencias del riesgo.",
+      "explanation": "Se actúa para disminuir el daño potencial (ej. poner aspersores)."
+    },
+    {
+      "id": "q118",
+      "type": "single_choice",
+      "question": "¿Cuál es el tema más importante a tratar en las reuniones de seguimiento?",
+      "options": [
+        "El menú del comedor.",
+        "El Riesgo.",
+        "Las anécdotas de la oficina.",
+        "El color del logo de la empresa."
+      ],
+      "correct_answer": "El Riesgo.",
+      "explanation": "Identificar lo que puede ocurrir es vital para mantener el control proactivo."
+    },
+    {
+      "id": "q119",
+      "type": "single_choice",
+      "question": "Un riesgo \"conocido-desconocido\" es aquel donde:",
+      "options": [
+        "No sabemos nada de nada.",
+        "Conocemos la causa pero no la cantidad exacta o probabilidad del impacto.",
+        "Sabemos exactamente cuándo pasará y cuánto costará.",
+        "El director lo oculta al equipo."
+      ],
+      "correct_answer": "Conocemos la causa pero no la cantidad exacta o probabilidad del impacto.",
+      "explanation": "Se gestionan mediante reservas de contingencia."
+    },
+    {
+      "id": "q120",
+      "type": "single_choice",
+      "question": "La técnica de \"Simulación de Montecarlo\" se usa para:",
+      "options": [
+        "Jugar a la ruleta con el presupuesto.",
+        "Estimar resultados de coste y plazo realizando el proyecto muchas veces de forma estadística.",
+        "Dibujar el organigrama de forma artística.",
+        "Seleccionar a los proveedores por sorteo."
+      ],
+      "correct_answer": "Estimar resultados de coste y plazo realizando el proyecto muchas veces de forma estadística.",
+      "explanation": "Indica la probabilidad de terminar en una fecha o coste dados."
+    },
+    {
+      "id": "q121",
+      "type": "single_choice",
+      "question": "¿Cuál es el objetivo principal de la gestión de la calidad?",
+      "options": [
+        "Asegurar que el proyecto es perfecto y no tiene errores.",
+        "Asegurar que el proyecto satisfaga las necesidades por las cuales fue emprendido.",
+        "Superar siempre las expectativas subjetivas del cliente.",
+        "Cumplir solo con las normas de seguridad e higiene."
+      ],
+      "correct_answer": "Asegurar que el proyecto satisfaga las necesidades por las cuales fue emprendido.",
+      "explanation": "Incluye la conformidad con los requisitos y la idoneidad para el uso."
+    },
+    {
+      "id": "q122",
+      "type": "single_choice",
+      "question": "Calidad es diferente a Grado de Calidad porque:",
+      "options": [
+        "La calidad es obligatoria y el grado es opcional.",
+        "La calidad es el cumplimiento de requisitos; el grado es una categoría técnica (ej. 2 vs 5 estrellas).",
+        "El grado solo aplica a los directivos.",
+        "La calidad no cuesta dinero y el grado sí."
+      ],
+      "correct_answer": "La calidad es el cumplimiento de requisitos; el grado es una categoría técnica (ej. 2 vs 5 estrellas).",
+      "explanation": "Un producto de bajo grado puede ser de excelente calidad si cumple su propósito."
+    },
+    {
+      "id": "q123",
+      "type": "single_choice",
+      "question": "En gestión de calidad, se prioriza:",
+      "options": [
+        "La inspección sobre la prevención.",
+        "La prevención sobre la inspección.",
+        "El castigo a los errores cometidos.",
+        "El azar sobre la estadística."
+      ],
+      "correct_answer": "La prevención sobre la inspección.",
+      "explanation": "Prevenir errores es mucho más barato que corregirlos tras una inspección tardía."
+    },
+    {
+      "id": "q124",
+      "type": "single_choice",
+      "question": "El ciclo PDCA (Plan-Do-Check-Act) se conoce también como:",
+      "options": [
+        "Ciclo de Juran.",
+        "Ciclo de Shewhart-Deming.",
+        "Método de Ishikawa.",
+        "Regla de Pareto."
+      ],
+      "correct_answer": "Ciclo de Shewhart-Deming.",
+      "explanation": "Es el principio fundamental para la mejora continua de la calidad."
+    },
+    {
+      "id": "q125",
+      "type": "single_choice",
+      "question": "¿Qué es una \"Auditoría de Calidad\"?",
+      "options": [
+        "Una reunión para despedir a gente.",
+        "Una revisión sistemática para verificar si las actividades cumplen los procesos y políticas planificados.",
+        "Un examen técnico del código software únicamente.",
+        "Una encuesta de satisfacción al cliente al final del proyecto."
+      ],
+      "correct_answer": "Una revisión sistemática para verificar si las actividades cumplen los procesos y políticas planificados.",
+      "explanation": "Identifica ineficiencias y asegura la mejora del desempeño."
+    },
+    {
+      "id": "q126",
+      "type": "single_choice",
+      "question": "La herramienta de calidad para identificar las causas raíces de un problema es:",
+      "options": [
+        "El diagrama de Pareto.",
+        "El diagrama de espina de pescado (causa-efecto).",
+        "El histograma.",
+        "La matriz RAM."
+      ],
+      "correct_answer": "El diagrama de espina de pescado (causa-efecto).",
+      "explanation": "También llamado diagrama de Ishikawa, une causas con el efecto observado."
+    },
+    {
+      "id": "q127",
+      "type": "single_choice",
+      "question": "El lema \"la calidad es gratis\" de Philip Crosby significa que:",
+      "options": [
+        "No hay que pagar a los inspectores.",
+        "Los beneficios de evitar fallos compensan con creces los costes de prevención.",
+        "El cliente no paga por la calida",
+        "Los materiales de calidad no tienen coste."
+      ],
+      "correct_answer": "Los beneficios de evitar fallos compensan con creces los costes de prevención.",
+      "explanation": "Eliminar los costes de la \"no calidad\" genera ganancias económicas."
+    },
+    {
+      "id": "q128",
+      "type": "single_choice",
+      "question": "El Diagrama de Pareto se basa en el principio de:",
+      "options": [
+        "Que el 100% de los errores son culpa del director.",
+        "Los \"pocos vitales\" frente a los \"muchos triviales\" (regla 80/20).",
+        "Que todas las causas tienen la misma importancia.",
+        "La distribución normal estándar."
+      ],
+      "correct_answer": "Los \"pocos vitales\" frente a los \"muchos triviales\" (regla 80/20).",
+      "explanation": "Ayuda a centrarse en los problemas críticos que causan la mayoría de los defectos."
+    },
+    {
+      "id": "q129",
+      "type": "single_choice",
+      "question": "¿Qué herramienta se usa para comprobar que se han seguido todos los pasos requeridos en un proceso?",
+      "options": [
+        "Diagrama de flujo.",
+        "Hojas de chequeo (listas de verificación).",
+        "Gráfico de control.",
+        "Diagrama de dispersión."
+      ],
+      "correct_answer": "Hojas de chequeo (listas de verificación).",
+      "explanation": "Son herramientas estructuradas para confirmar la realización de tareas frecuentes."
+    },
+    {
+      "id": "q130",
+      "type": "single_choice",
+      "question": "La calidad en un proyecto es responsabilidad de:",
+      "options": [
+        "Solo del director de proyectos.",
+        "Únicamente del departamento de calidad.",
+        "De todo el equipo de proyecto.",
+        "Del cliente final exclusivamente."
+      ],
+      "correct_answer": "De todo el equipo de proyecto.",
+      "explanation": "Cada miembro es cliente y suministrador interno en la cadena de procesos."
+    },
+    {
+      "id": "q131",
+      "type": "single_choice",
+      "question": "¿Qué significa \"adecuación al uso\"?",
+      "options": [
+        "Que el producto es bonito.",
+        "Que el producto satisface las necesidades reales del usuario tal como este las percibe.",
+        "Que el producto cumple estrictamente el contrato aunque no sirva para nada.",
+        "Que el producto es el más caro del mercado."
+      ],
+      "correct_answer": "Que el producto satisface las necesidades reales del usuario tal como este las percibe.",
+      "explanation": "Se enfoca en la utilidad real para el negocio del cliente."
+    },
+    {
+      "id": "q132",
+      "type": "single_choice",
+      "question": "Los \"Límites de Control\" en un gráfico sirven para:",
+      "options": [
+        "Despedir a los empleados lentos.",
+        "Determinar si un proceso es estable y predecible.",
+        "Fijar el precio final del contrato.",
+        "Saber cuándo empieza el proyecto."
+      ],
+      "correct_answer": "Determinar si un proceso es estable y predecible.",
+      "explanation": "Indican si las variaciones son aleatorias o por causas especiales."
+    },
+    {
+      "id": "q133",
+      "type": "single_choice",
+      "question": "El coste de calidad incluye:",
+      "options": [
+        "Solo el precio de los materiales.",
+        "Costes de prevención, evaluación y fallos (internos y externos).",
+        "Únicamente las multas por retraso.",
+        "El sueldo del director de proyectos."
+      ],
+      "correct_answer": "Costes de prevención, evaluación y fallos (internos y externos).",
+      "explanation": "Engloba todo el esfuerzo para lograr la conformidad y el trabajo por no-conformidades."
+    },
+    {
+      "id": "q134",
+      "type": "single_choice",
+      "question": "¿Cuál es un ejemplo de inversión preventiva en calidad?",
+      "options": [
+        "Realizar una inspección final del producto.",
+        "Formación del equipo y mejora del ambiente de trabajo.",
+        "Pagar una garantía al cliente tras un fallo.",
+        "Repetir un trabajo mal hecho."
+      ],
+      "correct_answer": "Formación del equipo y mejora del ambiente de trabajo.",
+      "explanation": "Estas acciones evitan que los defectos lleguen a producirse."
+    },
+    {
+      "id": "q135",
+      "type": "single_choice",
+      "question": "La exactitud frente a la precisión en calidad significa:",
+      "options": [
+        "Son lo mismo.",
+        "Exactitud es cercanía al valor objetivo; precisión es la consistencia de los resultados.",
+        "Precisión es para el tiempo; exactitud es para el dinero.",
+        "La exactitud no se puede medir."
+      ],
+      "correct_answer": "Exactitud es cercanía al valor objetivo; precisión es la consistencia de los resultados.",
+      "explanation": "Un proceso puede ser preciso (resultados similares) pero no exacto (lejos del objetivo)."
+    },
+    {
+      "id": "q136",
+      "type": "single_choice",
+      "question": "¿Quiénes son los stakeholders?",
+      "options": [
+        "Solo los jefes de la empresa.",
+        "Personas u organizaciones involucradas activamente o cuyos intereses pueden verse afectados por el proyecto.",
+        "Únicamente los clientes que pagan.",
+        "Los competidores que no conocen el proyecto."
+      ],
+      "correct_answer": "Personas u organizaciones involucradas activamente o cuyos intereses pueden verse afectados por el proyecto.",
+      "explanation": "Pueden ser internos o externos y verse afectados positiva o negativamente."
+    },
+    {
+      "id": "q137",
+      "type": "single_choice",
+      "question": "¿Cuál es el objetivo clave de la gestión de los interesados?",
+      "options": [
+        "Obedecer todas sus órdenes.",
+        "Gestionar su compromiso y expectativas para potenciar el éxito del proyecto.",
+        "Evitar que hablen con el director de proyectos.",
+        "Cobrarles más dinero por cambios."
+      ],
+      "correct_answer": "Gestionar su compromiso y expectativas para potenciar el éxito del proyecto.",
+      "explanation": "Busca alinear sus intereses con los del proyecto y desactivar oposiciones."
+    },
+    {
+      "id": "q138",
+      "type": "single_choice",
+      "question": "¿Cuándo tienen los stakeholders mayor influencia en el proyecto?",
+      "options": [
+        "Durante el cierre.",
+        "En la fase de ejecución avanzada.",
+        "Durante el inicio.",
+        "Nunca, si el director es autoritario."
+      ],
+      "correct_answer": "Durante el inicio.",
+      "explanation": "Es cuando se definen objetivos y la capacidad de cambio es máxima con bajo coste."
+    },
+    {
+      "id": "q139",
+      "type": "single_choice",
+      "question": "La \"Matriz de Interesados\" permite clasificarlos según:",
+      "options": [
+        "Su estatura y peso.",
+        "Su nivel de poder e interés en el proyecto.",
+        "El orden alfabético de sus apellidos.",
+        "La cantidad de correos que envían."
+      ],
+      "correct_answer": "Su nivel de poder e interés en el proyecto.",
+      "explanation": "Esta herramienta facilita la priorización para desarrollar estrategias de gestión."
+    },
+    {
+      "id": "q140",
+      "type": "single_choice",
+      "question": "¿Qué debe hacer el director si un interesado es contrario al proyecto?",
+      "options": [
+        "Echarlo de la empresa.",
+        "Ignorar sus comentarios.",
+        "Desarrollar una estrategia para desactivar su influencia u oposión.",
+        "Darle el 100% de la razón siempre."
+      ],
+      "correct_answer": "Desarrollar una estrategia para desactivar su influencia u oposión.",
+      "explanation": "La gestión de interesados busca ganar confianza o neutralizar riesgos negativos."
+    },
+    {
+      "id": "q141",
+      "type": "single_choice",
+      "question": "El \"Registro de Interesados\" contiene:",
+      "options": [
+        "Solo nombres y teléfonos.",
+        "Información sobre intereses, participación, impacto y clasificación.",
+        "El plan de comunicación detallado.",
+        "Las facturas pendientes de pago."
+      ],
+      "correct_answer": "Información sobre intereses, participación, impacto y clasificación.",
+      "explanation": "Es la base para entender quién es quién y cómo afecta al éxito."
+    },
+    {
+      "id": "q142",
+      "type": "single_choice",
+      "question": "¿Qué es el \"Stakeholder Engagement\"?",
+      "options": [
+        "Una fiesta de compromiso.",
+        "El proceso de diálogo y relación transparente para involucrar a los interesados en las decisiones.",
+        "Obligar a los empleados a trabajar más horas.",
+        "El contrato legal de confidencialidad."
+      ],
+      "correct_answer": "El proceso de diálogo y relación transparente para involucrar a los interesados en las decisiones.",
+      "explanation": "Va más allá del contacto cotidiano, buscando fortalecer relaciones estratégicas."
+    },
+    {
+      "id": "q143",
+      "type": "single_choice",
+      "question": "Los interesados \"pasivos\" son aquellos que:",
+      "options": [
+        "Trabajan directamente en el proyecto.",
+        "Solo se ven afectados de forma indirecta por las consecuencias del proyecto.",
+        "No tienen ningún interés en el éxito.",
+        "Son directores de otros proyectos."
+      ],
+      "correct_answer": "Solo se ven afectados de forma indirecta por las consecuencias del proyecto.",
+      "explanation": "Ejemplos son vecinos de una obra o familiares del equipo."
+    },
+    {
+      "id": "q144",
+      "type": "single_choice",
+      "question": "¿Qué herramienta usa el director para gestionar las expectativas individuales?",
+      "options": [
+        "El diagrama de PERT.",
+        "Habilidades interpersonales (comunicación, negociación, empatía).",
+        "El histograma de recursos.",
+        "El software de control de cambios."
+      ],
+      "correct_answer": "Habilidades interpersonales (comunicación, negociación, empatía).",
+      "explanation": "Permiten generar credibilidad y resolver conflictos de intereses."
+    },
+    {
+      "id": "q145",
+      "type": "single_choice",
+      "question": "En caso de conflicto de intereses entre stakeholders, el director debe resolver a favor de:",
+      "options": [
+        "El patrocinador siempre.",
+        "Su propio beneficio personal.",
+        "El cliente.",
+        "El proveedor más barato."
+      ],
+      "correct_answer": "El cliente.",
+      "explanation": "Es un principio ético y de gestión profesional del director de proyectos."
+    },
+    {
+      "id": "q146",
+      "type": "single_choice",
+      "question": "El \"Registro de Problemas\" (Issue Log) sirve para:",
+      "options": [
+        "Anotar quién llega tarde.",
+        "Documentar y monitorizar incidentes y sus responsables de resolución.",
+        "Listar solo los riesgos positivos.",
+        "Guardar las quejas anónimas."
+      ],
+      "correct_answer": "Documentar y monitorizar incidentes y sus responsables de resolución.",
+      "explanation": "Facilita el entendimiento común de incidentes y asegura su cierre."
+    },
+    {
+      "id": "q147",
+      "type": "single_choice",
+      "question": "¿Por qué la matriz de interesados no es estática?",
+      "options": [
+        "Porque el software la actualiza cada segundo.",
+        "Porque nuevos interesados pueden aparecer o algunos dejar de ser relevantes durante el proyecto.",
+        "Porque al director le gusta cambiarla.",
+        "Porque es ilegal mantenerla igual más de un mes."
+      ],
+      "correct_answer": "Porque nuevos interesados pueden aparecer o algunos dejar de ser relevantes durante el proyecto.",
+      "explanation": "Requiere una revisión periódica a lo largo de todo el ciclo de vida."
+    },
+    {
+      "id": "q148",
+      "type": "single_choice",
+      "question": "El patrocinador (sponsor) es el interesado que:",
+      "options": [
+        "Realiza el trabajo técnico.",
+        "Provee los recursos financieros y tiene un gran interés en los resultados.",
+        "Se queja de la calidad del producto final.",
+        "Es el usuario final del servicio."
+      ],
+      "correct_answer": "Provee los recursos financieros y tiene un gran interés en los resultados.",
+      "explanation": "Es una figura de alta jerarquía clave para decisiones fuera del ámbito del director."
+    },
+    {
+      "id": "q149",
+      "type": "single_choice",
+      "question": "¿Cuál no es una característica típica de un interesado para su priorización?",
+      "options": [
+        "Su poder de influencia.",
+        "Su legitimidad y urgencia.",
+        "Su color de ojos.",
+        "Su posición (partidario o opositor)."
+      ],
+      "correct_answer": "Su color de ojos.",
+      "explanation": "Se analizan factores que afecten a la capacidad de potenciar o dañar el proyecto."
+    },
+    {
+      "id": "q150",
+      "type": "single_choice",
+      "question": "Gestionar el compromiso de los interesados aumenta:",
+      "options": [
+        "El presupuesto del proyecto.",
+        "La probabilidad de éxito del proyecto.",
+        "El número de reuniones inútiles.",
+        "El riesgo de huelgas."
+      ],
+      "correct_answer": "La probabilidad de éxito del proyecto.",
+      "explanation": "Asegura que comprendan y compartan los objetivos y beneficios."
+    },
+    {
+      "id": "q151",
+      "type": "single_choice",
+      "question": "¿Cuál es el objetivo principal de la comunicación en dirección de proyectos?",
+      "options": [
+        "Enviar el máximo número de correos posible.",
+        "Movilizar al otro a favor de los objetivos del proyecto.",
+        "Demostrar quién manda.",
+        "Ocultar los retrasos a la dirección."
+      ],
+      "correct_answer": "Movilizar al otro a favor de los objetivos del proyecto.",
+      "explanation": "Se comunica para orientar a los actores a la acción y reducir la incertidumbre."
+    },
+    {
+      "id": "q152",
+      "type": "single_choice",
+      "question": "¿Cuánto tiempo dedica, aproximadamente, un director de proyectos a comunicarse?",
+      "options": [
+        "El 10%.",
+        "El 50%.",
+        "Entre el 75% y el 90%.",
+        "Solo los lunes por la mañana."
+      ],
+      "correct_answer": "Entre el 75% y el 90%.",
+      "explanation": "El director pasa casi todo su tiempo asegurando que la información fluye y se entiende."
+    },
+    {
+      "id": "q153",
+      "type": "single_choice",
+      "question": "El método de comunicación \"Push\" (empujar) se caracteriza por:",
+      "options": [
+        "Un intercambio bidireccional en tiempo real.",
+        "Enviar información sin garantizar que el receptor la ha entendido (ej. emails, informes).",
+        "Dejar la información en un repositorio para que el usuario la busque.",
+        "Obligar físicamente a la gente a trabajar."
+      ],
+      "correct_answer": "Enviar información sin garantizar que el receptor la ha entendido (ej. emails, informes).",
+      "explanation": "Se envía a receptores específicos pero no hay retroalimentación inmediata."
+    },
+    {
+      "id": "q154",
+      "type": "single_choice",
+      "question": "¿Qué técnica de comunicación es la más eficiente para asegurar la comprensión común?",
+      "options": [
+        "Comunicación Push.",
+        "Comunicación Pull (tirar).",
+        "Comunicación interactiva.",
+        "Comunicación no oficial."
+      ],
+      "correct_answer": "Comunicación interactiva.",
+      "explanation": "Es multidireccional y permite el intercambio de roles y feedback inmediato."
+    },
+    {
+      "id": "q155",
+      "type": "single_choice",
+      "question": "Según la teoría de las 7C's, la comunicación debe ser:",
+      "options": [
+        "Compleja, Costosa, Crítica, Cerrada, Corta, Clara y Concisa.",
+        "Clara, Concisa, Concreta, Correcta, Coherente, Completa y Cortés.",
+        "Cantada, Cortada, Cruzada, Común, Caliente, Cierta y Clara.",
+        "Solo Corta y Concisa."
+      ],
+      "correct_answer": "Clara, Concisa, Concreta, Correcta, Coherente, Completa y Cortés.",
+      "explanation": "Estas cualidades aseguran que el mensaje sea efectivo y bien recibido."
+    },
+    {
+      "id": "q156",
+      "type": "single_choice",
+      "question": "En la comunicación interpersonal, ¿qué porcentaje aproximado es no verbal?",
+      "options": [
+        "El 10%.",
+        "El 30%.",
+        "Entre el 60% y el 70%.",
+        "El 100%."
+      ],
+      "correct_answer": "Entre el 60% y el 70%.",
+      "explanation": "El cuerpo, los gestos y el tono transmiten más emociones que las palabras."
+    },
+    {
+      "id": "q157",
+      "type": "single_choice",
+      "question": "Una red de comunicación \"Interconexión Total\" significa que:",
+      "options": [
+        "Nadie puede hablar con nadie.",
+        "Todo el mundo puede hablar con todo el mundo.",
+        "Solo el jefe habla.",
+        "Solo se habla por teléfono."
+      ],
+      "correct_answer": "Todo el mundo puede hablar con todo el mundo.",
+      "explanation": "Es una topología donde existen múltiples canales para acceder a la información."
+    },
+    {
+      "id": "q158",
+      "type": "single_choice",
+      "question": "El plan de gestión de comunicaciones define:",
+      "options": [
+        "El sueldo del director.",
+        "Quién necesita qué información, cuándo la necesita y en qué formato.",
+        "El lenguaje de programación del software.",
+        "La lista de regalos para el cliente."
+      ],
+      "correct_answer": "Quién necesita qué información, cuándo la necesita y en qué formato.",
+      "explanation": "Es el componente del plan que describe cómo se administrará la información."
+    },
+    {
+      "id": "q159",
+      "type": "single_choice",
+      "question": "¿Qué es el \"ruido\" en el modelo de comunicación?",
+      "options": [
+        "La música de la oficina.",
+        "Factores o barreras que dificultan o empobrecen la comprensión del mensaje.",
+        "El sonido de los teclados.",
+        "El exceso de optimismo del director."
+      ],
+      "correct_answer": "Factores o barreras que dificultan o empobrecen la comprensión del mensaje.",
+      "explanation": "Pueden ser conflictos, falta de claridad o canales inadecuados."
+    },
+    {
+      "id": "q160",
+      "type": "single_choice",
+      "question": "La escucha activa requiere:",
+      "options": [
+        "Hablar el doble que el interlocutor.",
+        "Mirar a los ojos, parafrasear y no interrumpir.",
+        "Estar pensando en la respuesta mientras el otro habla.",
+        "Mirar el móvil mientras se asiente con la cabeza."
+      ],
+      "correct_answer": "Mirar a los ojos, parafrasear y no interrumpir.",
+      "explanation": "Permite captar tanto los datos como las emociones del emisor."
+    },
+    {
+      "id": "q161",
+      "type": "single_choice",
+      "question": "La comunicación \"Vertical Descendente\" es aquella que:",
+      "options": [
+        "Va de los subordinados a los mandos.",
+        "Fluye de los mandos a los subordinados (ej. instrucciones, manuales).",
+        "Ocurre entre colegas del mismo nivel.",
+        "Se realiza con clientes externos."
+      ],
+      "correct_answer": "Fluye de los mandos a los subordinados (ej. instrucciones, manuales).",
+      "explanation": "Es la dirección típica de las órdenes o la información estratégica."
+    },
+    {
+      "id": "q162",
+      "type": "single_choice",
+      "question": "¿Qué factor no suele afectar a la elección de la tecnología de comunicación?",
+      "options": [
+        "La urgencia y sensibilidad de la información.",
+        "El entorno y duración del proyecto.",
+        "El color de las paredes de la oficina.",
+        "La ubicación de los interesados."
+      ],
+      "correct_answer": "El color de las paredes de la oficina.",
+      "explanation": "Se eligen herramientas basadas en eficacia, seguridad y disponibilidad."
+    },
+    {
+      "id": "q163",
+      "type": "single_choice",
+      "question": "El objetivo de una reunión de proyecto debe ser:",
+      "options": [
+        "Pasar el tiempo hasta el fin de la jornada.",
+        "Potenciar la identidad del equipo, generar soluciones y aumentar el compromiso.",
+        "Criticar a los interesados que no han asistido.",
+        "Comer galletas gratis."
+      ],
+      "correct_answer": "Potenciar la identidad del equipo, generar soluciones y aumentar el compromiso.",
+      "explanation": "Es un espacio para fomentar la colaboración y fijar el rumbo."
+    },
+    {
+      "id": "q164",
+      "type": "single_choice",
+      "question": "Un informe de desempeño debe ser:",
+      "options": [
+        "Lo más largo posible para impresionar.",
+        "Fácilmente comprensible, veraz y orientado a la toma de decisiones.",
+        "Lleno de tecnicismos ininteligibles.",
+        "Entregado solo al finalizar el proyecto."
+      ],
+      "correct_answer": "Fácilmente comprensible, veraz y orientado a la toma de decisiones.",
+      "explanation": "Debe movilizar al interesado suministrando la información adecuada."
+    },
+    {
+      "id": "q165",
+      "type": "single_choice",
+      "question": "En el modelo básico de comunicación, el responsable de que el mensaje llegue y se entienda es:",
+      "options": [
+        "Solo el receptor.",
+        "Solo el emisor.",
+        "Ambos: el emisor de ser claro y el receptor de confirmar la recepción.",
+        "El software de correo electrónico."
+      ],
+      "correct_answer": "Ambos: el emisor de ser claro y el receptor de confirmar la recepción.",
+      "explanation": "La comunicación eficaz requiere que ambos actores asuman su responsabilidad."
+    },
+    {
+      "id": "q166",
+      "type": "single_choice",
+      "question": "¿Qué incluye la gestión de los recursos humanos del proyecto?",
+      "options": [
+        "Pagar las nóminas de toda la empresa.",
+        "Procesos que organizan, gestionan y conducen al equipo del proyecto.",
+        "Únicamente despedir a los empleados que fallan.",
+        "Seleccionar el color de los uniformes."
+      ],
+      "correct_answer": "Procesos que organizan, gestionan y conducen al equipo del proyecto.",
+      "explanation": "Se centra en las personas a las que se han asignado roles para completar el proyecto."
+    },
+    {
+      "id": "q167",
+      "type": "single_choice",
+      "question": "¿Cuáles son las fases de evolución de un equipo de trabajo?",
+      "options": [
+        "Inicio, Nudo y Desenlace.",
+        "Form (Formación), Storm (Tormenta), Norm (Normalización) y Perform (Desempeño).",
+        "Selección, Trabajo y Despido.",
+        "Planificación, Ejecución y Cierre."
+      ],
+      "correct_answer": "Form (Formación), Storm (Tormenta), Norm (Normalización) y Perform (Desempeño).",
+      "explanation": "El equipo pasa por etapas de conflicto y ajuste antes de alcanzar el rendimiento óptimo."
+    },
+    {
+      "id": "q168",
+      "type": "single_choice",
+      "question": "En una organización \"Funcional\", el director de proyecto tiene:",
+      "options": [
+        "Autoridad total sobre los recursos.",
+        "Poca o ninguna autoridad.",
+        "El mismo poder que el gerente general.",
+        "Solo autoridad sobre los clientes."
+      ],
+      "correct_answer": "Poca o ninguna autoridad.",
+      "explanation": "Los recursos pertenecen a los departamentos funcionales y el director es solo un coordinador."
+    },
+    {
+      "id": "q169",
+      "type": "single_choice",
+      "question": "La \"Matriz RAM\" se utiliza para:",
+      "options": [
+        "Calcular el camino crítico.",
+        "Mostrar claramente los roles y responsabilidades asociados a cada tarea.",
+        "Ver el ahorro de costes del proyecto.",
+        "Registrar las llamadas de los interesados."
+      ],
+      "correct_answer": "Mostrar claramente los roles y responsabilidades asociados a cada tarea.",
+      "explanation": "Cruza la WBS (trabajo) con la OBS (organización)."
+    },
+    {
+      "id": "q170",
+      "type": "single_choice",
+      "question": "¿Qué muestra un \"Histograma de Recursos\"?",
+      "options": [
+        "El coste total del proyecto.",
+        "La carga de trabajo y dedicación de los recursos a lo largo del tiempo.",
+        "Las fotos de los miembros del equipo.",
+        "La lista de proveedores externos."
+      ],
+      "correct_answer": "La carga de trabajo y dedicación de los recursos a lo largo del tiempo.",
+      "explanation": "Permite detectar sobreutilización o recursos ociosos."
+    },
+    {
+      "id": "q171",
+      "type": "single_choice",
+      "question": "¿Quién es el responsable de asignar personas al equipo en una organización matricial?",
+      "options": [
+        "El director de proyectos.",
+        "El director funcional en negociación con el director de proyectos.",
+        "El cliente externo.",
+        "El equipo por votación."
+      ],
+      "correct_answer": "El director funcional en negociación con el director de proyectos.",
+      "explanation": "El director funcional gestiona la plantilla y negocia su uso."
+    },
+    {
+      "id": "q172",
+      "type": "single_choice",
+      "question": "El director de proyectos debe tener tres perfiles clave:",
+      "options": [
+        "Técnico, Comercial y Administrativo.",
+        "Profesional, Líder e Integrador.",
+        "Autoritaria, Sumisa y Amigable.",
+        "Experto en finanzas, leyes y marketing."
+      ],
+      "correct_answer": "Profesional, Líder e Integrador.",
+      "explanation": "Debe dominar el conocimiento, guiar al equipo y coordinar todos los elementos."
+    },
+    {
+      "id": "q173",
+      "type": "single_choice",
+      "question": "En la fase \"Storm\" (Tormenta) del equipo:",
+      "options": [
+        "Todo el mundo trabaja en armonía.",
+        "Surgen conflictos por motivos de carácter o relevancia individual.",
+        "Se celebra la finalización del proyecto.",
+        "Se definen las normas de comportamiento."
+      ],
+      "correct_answer": "Surgen conflictos por motivos de carácter o relevancia individual.",
+      "explanation": "Es la etapa donde los individuos se conocen y marcan sus posiciones."
+    },
+    {
+      "id": "q174",
+      "type": "single_choice",
+      "question": "La organización \"Proyectizada\" se caracteriza porque:",
+      "options": [
+        "No hay directores de proyecto.",
+        "El director de proyecto tiene autoridad casi total y el personal le reporta directamente.",
+        "Los empleados tienen dos jefes a la vez.",
+        "Solo se hacen proyectos pequeños."
+      ],
+      "correct_answer": "El director de proyecto tiene autoridad casi total y el personal le reporta directamente.",
+      "explanation": "Maximiza el enfoque y la lealtad al proyecto."
+    },
+    {
+      "id": "q175",
+      "type": "single_choice",
+      "question": "¿Qué es una \"Oficina de Proyectos\" (PMO)?",
+      "options": [
+        "Un despacho con muchos ordenadores.",
+        "Un área funcional que da soporte operativo, metodológico o control a los proyectos.",
+        "El almacén donde se guardan los planos.",
+        "El departamento de marketing de la empresa."
+      ],
+      "correct_answer": "Un área funcional que da soporte operativo, metodológico o control a los proyectos.",
+      "explanation": "Puede ser de soporte, centro de excelencia o responsable de proyectos."
+    },
+    {
+      "id": "q176",
+      "type": "single_choice",
+      "question": "La participación del equipo en la planificación es beneficiosa porque:",
+      "options": [
+        "El director trabaja menos.",
+        "Aporta experiencia y fortalece el compromiso con los objetivos.",
+        "Permite alargar el plazo del proyecto.",
+        "Es una exigencia legal del sindicato."
+      ],
+      "correct_answer": "Aporta experiencia y fortalece el compromiso con los objetivos.",
+      "explanation": "El equipo se siente corresponsable del plan que ha ayudado a crear."
+    },
+    {
+      "id": "q177",
+      "type": "single_choice",
+      "question": "Según la jerarquía de necesidades de Maslow, el nivel más alto es:",
+      "options": [
+        "Seguridad.",
+        "Autoestima.",
+        "Autorrealización (o el punto más alto de la pirámide).",
+        "Necesidades sociales."
+      ],
+      "correct_answer": "Autorrealización (o el punto más alto de la pirámide).",
+      "explanation": "Es la necesidad de crecimiento personal y cumplimiento del potencial."
+    },
+    {
+      "id": "q178",
+      "type": "single_choice",
+      "question": "La técnica de resolución de conflictos \"Confrontación\" consiste en:",
+      "options": [
+        "Gritar más fuerte que el otro.",
+        "Tratar el problema directamente para buscar una solución gano-ganas.",
+        "Ignorar el conflicto y esperar que pase.",
+        "Obligar a una de las partes a ceder por autoridad."
+      ],
+      "correct_answer": "Tratar el problema directamente para buscar una solución gano-ganas.",
+      "explanation": "Es el método más efectivo y utilizado por directores profesionales."
+    },
+    {
+      "id": "q179",
+      "type": "single_choice",
+      "question": "¿Qué técnica se usa cuando el director dice: \"no puedo tratar este problema ahora\"?",
+      "options": [
+        "Forzar.",
+        "Suavizar.",
+        "Retirada (eludir).",
+        "Compromiso."
+      ],
+      "correct_answer": "Retirada (eludir).",
+      "explanation": "Se pospone el problema para un momento mejor o para que lo resuelvan otros."
+    },
+    {
+      "id": "q180",
+      "type": "single_choice",
+      "question": "El factor de liderazgo más importante para un director de proyectos es:",
+      "options": [
+        "El coche que conduce.",
+        "Su capacidad técnica extrema.",
+        "La credibilida",
+        "Ser el más gracioso del equipo."
+      ],
+      "correct_answer": "La credibilida",
+      "explanation": "Sin confianza y coherencia, el líder no puede movilizar al equipo ni a los interesados."
+    },
+    {
+      "id": "q181",
+      "type": "single_choice",
+      "question": "¿Qué es el aprovisionamiento o adquisiciones en un proyecto?",
+      "options": [
+        "El proceso de contratar solo a empleados internos.",
+        "Procurar el suministro de bienes y servicios de compañías externas a la organización.",
+        "Vender el producto final al cliente.",
+        "Robar ideas de la competencia."
+      ],
+      "correct_answer": "Procurar el suministro de bienes y servicios de compañías externas a la organización.",
+      "explanation": "Permite completar el alcance cuando la empresa no tiene capacidad o interés interno."
+    },
+    {
+      "id": "q182",
+      "type": "single_choice",
+      "question": "La decisión de \"Hacer o Comprar\" (Make vs Buy) se basa en factores:",
+      "options": [
+        "Solo financieros.",
+        "Financieros, técnicos, de capacidad, tiempo y estratégicos.",
+        "Únicamente en el humor del director de compras.",
+        "Solo en la ubicación geográfica."
+      ],
+      "correct_answer": "Financieros, técnicos, de capacidad, tiempo y estratégicos.",
+      "explanation": "Se evalúa si es más eficiente usar recursos propios o externos."
+    },
+    {
+      "id": "q183",
+      "type": "single_choice",
+      "question": "Un contrato de \"Precio Fijo\" (Fixed Price) traslada la mayor parte del riesgo al:",
+      "options": [
+        "Comprador (cliente).",
+        "Vendedor (suministrador).",
+        "Director de proyectos.",
+        "Banco que financia el proyecto."
+      ],
+      "correct_answer": "Vendedor (suministrador).",
+      "explanation": "El vendedor se compromete a entregar por un precio cerrado; si hay sobrecostes, los asume él."
+    },
+    {
+      "id": "q184",
+      "type": "single_choice",
+      "question": "¿Qué tipo de contrato es más arriesgado para el comprador/cliente?",
+      "options": [
+        "Precio Fijo.",
+        "Costes Reembolsables (Cost Reimbursable).",
+        "Tiempo y Materiales (T&M).",
+        "Llave en mano."
+      ],
+      "correct_answer": "Costes Reembolsables (Cost Reimbursable).",
+      "explanation": "El cliente paga todos los costes reales del vendedor, independientemente de la eficiencia."
+    },
+    {
+      "id": "q185",
+      "type": "single_choice",
+      "question": "El documento RFP (Request for Proposal) solicita al vendedor:",
+      "options": [
+        "Solo el precio del suministro.",
+        "Una descripción detallada de la forma de ejecución (metodología) y el precio.",
+        "Información general sobre la empresa.",
+        "Una invitación a cenar."
+      ],
+      "correct_answer": "Una descripción detallada de la forma de ejecución (metodología) y el precio.",
+      "explanation": "Se usa cuando la aptitud técnica es tan importante como el precio."
+    },
+    {
+      "id": "q186",
+      "type": "single_choice",
+      "question": "En un contrato \"Tiempo y Materiales\" (T&M):",
+      "options": [
+        "El precio es fijo desde el inicio.",
+        "Es un híbrido donde el coste final puede aumentar si se requieren más horas.",
+        "El vendedor asume todo el riesgo de retraso.",
+        "Se paga solo por el material, no por el trabajo."
+      ],
+      "correct_answer": "Es un híbrido donde el coste final puede aumentar si se requieren más horas.",
+      "explanation": "Se parece a los de costes reembolsables por ser abierto en cantidad de trabajo."
+    },
+    {
+      "id": "q187",
+      "type": "single_choice",
+      "question": "¿Qué es una \"Conferencia de Suministradores\"?",
+      "options": [
+        "Una reunión para que los vendedores se peleen entre ellos.",
+        "Una reunión conjunta con posibles proveedores para asegurar que todos reciben la misma información.",
+        "El cierre de los contratos al final del proyecto.",
+        "Una charla magistral del director de proyectos."
+      ],
+      "correct_answer": "Una reunión conjunta con posibles proveedores para asegurar que todos reciben la misma información.",
+      "explanation": "Garantiza la igualdad de oportunidades y resuelve dudas comunes."
+    },
+    {
+      "id": "q188",
+      "type": "single_choice",
+      "question": "La \"Administración del Contrato\" consiste en:",
+      "options": [
+        "Firmar el contrato y olvidarse.",
+        "Supervisar la ejecución contractual, hitos, calidad y cambios hasta la extinción.",
+        "Elegir al proveedor más simpático.",
+        "Cambiar el precio del contrato cada semana."
+      ],
+      "correct_answer": "Supervisar la ejecución contractual, hitos, calidad y cambios hasta la extinción.",
+      "explanation": "Asegura que ambas partes cumplen con sus derechos y obligaciones."
+    },
+    {
+      "id": "q189",
+      "type": "single_choice",
+      "question": "El anagrama \"RESPETO\" en negociación se refiere a:",
+      "options": [
+        "Ser educado con el cliente.",
+        "Siete pasos: Relacionar datos, Examinar necesidades, Señalar inicio, Proponer, Evaluar, Tramitar y Obtener confirmación.",
+        "Reír, Esperar, Saltar, Pensar, Estudiar, Terminar y Olvidar.",
+        "Un código secreto para bajar precios."
+      ],
+      "correct_answer": "Siete pasos: Relacionar datos, Examinar necesidades, Señalar inicio, Proponer, Evaluar, Tramitar y Obtener confirmación.",
+      "explanation": "Es la metodología estructurada para alcanzar un acuerdo satisfactorio."
+    },
+    {
+      "id": "q190",
+      "type": "single_choice",
+      "question": "¿Cuál es un requisito esencial para que un contrato sea válido legalmente?",
+      "options": [
+        "Que el director de proyectos sea PMP.",
+        "Capacidad, Consentimiento, Objeto, Causa y Forma (Legalidad).",
+        "Que se haya pagado el 100% por adelantado.",
+        "Que el contrato tenga más de 100 páginas."
+      ],
+      "correct_answer": "Capacidad, Consentimiento, Objeto, Causa y Forma (Legalidad).",
+      "explanation": "Sin estos elementos, el contrato puede ser nulo o no ejecutable."
+    },
+    {
+      "id": "q191",
+      "type": "single_choice",
+      "question": "En una negociación exitosa, el resultado debe ser:",
+      "options": [
+        "Ganar a toda costa frente al proveedor.",
+        "\"Gano-ganas\", donde ambas partes ven cumplidos sus objetivos mínimos.",
+        "Que el cliente pague el doble.",
+        "Que el proveedor pierda dinero."
+      ],
+      "correct_answer": "\"Gano-ganas\", donde ambas partes ven cumplidos sus objetivos mínimos.",
+      "explanation": "Un acuerdo injusto pone en peligro la ejecución del proyecto y la relación futura."
+    },
+    {
+      "id": "q192",
+      "type": "single_choice",
+      "question": "¿Qué tipo de especificación traslada más riesgo al comprador/cliente?",
+      "options": [
+        "Especificación funcional.",
+        "Especificación de rendimiento.",
+        "Especificación de diseño (donde el cliente dice exactamente cómo hacerlo).",
+        "Especificación verbal."
+      ],
+      "correct_answer": "Especificación de diseño (donde el cliente dice exactamente cómo hacerlo).",
+      "explanation": "Si el diseño del cliente falla, el riesgo de que el producto no funcione es suyo."
+    },
+    {
+      "id": "q193",
+      "type": "single_choice",
+      "question": "El proceso de \"Cerrar las Adquisiciones\" incluye:",
+      "options": [
+        "Destruir las facturas.",
+        "Finalizar cada adquisición, verificar entregables y archivar información.",
+        "Despedir al proveedor sin previo aviso.",
+        "Iniciar un juicio siempre."
+      ],
+      "correct_answer": "Finalizar cada adquisición, verificar entregables y archivar información.",
+      "explanation": "Formaliza el fin de la relación contractual de cada contrato."
+    },
+    {
+      "id": "q194",
+      "type": "single_choice",
+      "question": "Un \"Contrato de Precio Unitario\" (Purchase Order) se usa habitualmente para:",
+      "options": [
+        "Proyectos de investigación complejos.",
+        "Suministros estándar (ej. $100/hora o $10/kg).",
+        "Contratar al director de proyectos.",
+        "Comprar el edificio de la sede central."
+      ],
+      "correct_answer": "Suministros estándar (ej. $100/hora o $10/kg).",
+      "explanation": "Se paga basándose en unidades medibles de producto o servicio."
+    },
+    {
+      "id": "q195",
+      "type": "single_choice",
+      "question": "¿Qué departamento suele centralizar las compras en una organización?",
+      "options": [
+        "El departamento de I+D.",
+        "El departamento de Compras o Aprovisionamiento.",
+        "El equipo técnico del proyecto.",
+        "El cliente externo."
+      ],
+      "correct_answer": "El departamento de Compras o Aprovisionamiento.",
+      "explanation": "Aplica las estrategias y procedimientos corporativos para minimizar riesgos."
+    },
+    {
+      "id": "q196",
+      "type": "single_choice",
+      "question": "¿Qué es la \"Integración\" en la fase de ejecución?",
+      "options": [
+        "Mezclar a los empleados de diferentes países.",
+        "Coordinar todos los recursos para llevar a cabo el plan de proyecto.",
+        "Cambiar el software cada mes.",
+        "Evitar el contacto con el cliente."
+      ],
+      "correct_answer": "Coordinar todos los recursos para llevar a cabo el plan de proyecto.",
+      "explanation": "Consiste en tomar decisiones diarias sobre dónde concentrar recursos y esfuerzos."
+    },
+    {
+      "id": "q197",
+      "type": "single_choice",
+      "question": "El proceso de \"Monitorización y Control\" tiene como fin:",
+      "options": [
+        "Castigar al equipo si hay retrasos.",
+        "Medir el estado del proyecto, detectar desviaciones y tomar acciones correctoras.",
+        "Cambiar los objetivos del cliente sin avisar.",
+        "Finalizar el proyecto lo antes posible."
+      ],
+      "correct_answer": "Medir el estado del proyecto, detectar desviaciones y tomar acciones correctoras.",
+      "explanation": "Mantiene el proyecto alineado con los planes para cumplir los objetivos."
+    },
+    {
+      "id": "q198",
+      "type": "single_choice",
+      "question": "¿Qué es el \"Control Integrado de Cambios\"?",
+      "options": [
+        "Sustituir al director de proyectos por una IA.",
+        "El proceso para revisar, analizar y aprobar o rechazar solicitudes de cambio.",
+        "Cambiar el color del logo de la empresa.",
+        "Dejar que el cliente cambie lo que quiera en cualquier momento."
+      ],
+      "correct_answer": "El proceso para revisar, analizar y aprobar o rechazar solicitudes de cambio.",
+      "explanation": "Asegura que solo se implementen cambios aprobados para mantener la integridad del plan."
+    },
+    {
+      "id": "q199",
+      "type": "single_choice",
+      "question": "El \"Cierre del Proyecto\" formaliza:",
+      "options": [
+        "El inicio de las vacaciones del director.",
+        "La aceptación del producto/servicio final y la liberación ordenada de recursos.",
+        "El pago de las multas pendientes.",
+        "El despido de todo el equipo."
+      ],
+      "correct_answer": "La aceptación del producto/servicio final y la liberación ordenada de recursos.",
+      "explanation": "Incluye el cierre administrativo, el archivo y las lecciones aprendidas."
+    },
+    {
+      "id": "q200",
+      "type": "single_choice",
+      "question": "¿Para qué sirven las \"Lecciones Aprendidas\"?",
+      "options": [
+        "Para regañar al equipo por sus errores.",
+        "Para registrar conocimiento que mejore el desempeño en proyectos futuros.",
+        "Para que el cliente vea que somos honestos.",
+        "Para rellenar el manual de la empresa sin utilidad real."
+      ],
+      "correct_answer": "Para registrar conocimiento que mejore el desempeño en proyectos futuros.",
+      "explanation": "Ayudan a repetir éxitos y evitar fallos, convirtiendo la experiencia en un activo."
+    },
+    {
+      "id": "q201",
+      "type": "single_choice",
+      "question": "Un \"Informe de Estado\" (Status Report) debe suministrar:",
+      "options": [
+        "Información detallada de cada minuto trabajado.",
+        "Información comprensible y orientada a los intereses de cada audiencia.",
+        "Solo las buenas noticias.",
+        "La lista de la compra del equipo."
+      ],
+      "correct_answer": "Información comprensible y orientada a los intereses de cada audiencia.",
+      "explanation": "El objetivo es la toma de decisiones informada y la movilización de interesados."
+    },
+    {
+      "id": "q202",
+      "type": "single_choice",
+      "question": "¿Qué debe hacer el director si surge un cambio que incrementa el riesgo del proyecto?",
+      "options": [
+        "Rechazarlo inmediatamente.",
+        "Analizar el impacto del cambio con el equipo antes de hablar con el cliente.",
+        "Aplicarlo en secreto.",
+        "Pedir más dinero sin justificación."
+      ],
+      "correct_answer": "Analizar el impacto del cambio con el equipo antes de hablar con el cliente.",
+      "explanation": "Se debe entender el impacto en tiempo, coste y calidad antes de negociar."
+    },
+    {
+      "id": "q203",
+      "type": "single_choice",
+      "question": "El \"Cierre Administrativo\" incluye actividades como:",
+      "options": [
+        "Iniciar juicios contra los proveedores.",
+        "Recopilar registros, auditar el éxito y archivar la información para el futuro.",
+        "Comprar material para el siguiente proyecto.",
+        "Borrar todos los archivos del servidor."
+      ],
+      "correct_answer": "Recopilar registros, auditar el éxito y archivar la información para el futuro.",
+      "explanation": "Garantiza que el conocimiento se conserve dentro de la organización."
+    },
+    {
+      "id": "q204",
+      "type": "single_choice",
+      "question": "¿Qué es una \"Acción Correctiva\"?",
+      "options": [
+        "Un castigo al empleado.",
+        "Actividad para eliminar la causa de una desviación presente en el proyecto.",
+        "Una sugerencia opcional del cliente.",
+        "El despido del director de proyectos."
+      ],
+      "correct_answer": "Actividad para eliminar la causa de una desviación presente en el proyecto.",
+      "explanation": "Busca alinear el rendimiento futuro con el plan original."
+    },
+    {
+      "id": "q205",
+      "type": "single_choice",
+      "question": "En el momento de realizar cambios, el director debe centrarse en:",
+      "options": [
+        "Hacer todos los que pida el cliente.",
+        "Prevenir cambios innecesarios.",
+        "Quejarse a la dirección.",
+        "Ignorar los cambios hasta el final."
+      ],
+      "correct_answer": "Prevenir cambios innecesarios.",
+      "explanation": "La gestión efectiva busca influir en los factores que eluden el control de cambios."
+    },
+    {
+      "id": "q206",
+      "type": "single_choice",
+      "question": "¿Qué se revisa al finalizar cada fase del proyecto?",
+      "options": [
+        "Si el entregable está listo y si el proyecto debe continuar.",
+        "Únicamente si se ha gastado todo el dinero.",
+        "Si hay que cambiar de director.",
+        "Si el cliente ha invitado a comer."
+      ],
+      "correct_answer": "Si el entregable está listo y si el proyecto debe continuar.",
+      "explanation": "El cierre de una fase es el punto de control para iniciar la siguiente."
+    },
+    {
+      "id": "q207",
+      "type": "single_choice",
+      "question": "El \"Control de Calidad\" se diferencia de la \"Validación del Alcance\" en que:",
+      "options": [
+        "Son lo mismo.",
+        "Calidad busca la exactitud técnica; Alcance busca la aceptación del cliente.",
+        "Calidad es opcional; Alcance es obligatorio.",
+        "Calidad es para el director; Alcance es para el patrocinador."
+      ],
+      "correct_answer": "Calidad busca la exactitud técnica; Alcance busca la aceptación del cliente.",
+      "explanation": "Generalmente se realizan en paralelo para asegurar ambas."
+    },
+    {
+      "id": "q208",
+      "type": "single_choice",
+      "question": "Las reuniones de seguimiento deben tener como entregable:",
+      "options": [
+        "Una lista de chistes.",
+        "Un acta con compromisos, responsables y fechas de resolución.",
+        "Solo una foto de grupo.",
+        "La fecha de la siguiente cena de empresa."
+      ],
+      "correct_answer": "Un acta con compromisos, responsables y fechas de resolución.",
+      "explanation": "Sin acta clara, las reuniones pierden su efectividad y control."
+    },
+    {
+      "id": "q209",
+      "type": "single_choice",
+      "question": "¿Cuándo se considera que un proyecto está realmente cerrado?",
+      "options": [
+        "Cuando el director se va de la oficina.",
+        "Cuando en operación satisface la necesidad por la cual fue emprendido.",
+        "Cuando se acaba el dinero del presupuesto.",
+        "Cuando el cliente deja de llamar."
+      ],
+      "correct_answer": "Cuando en operación satisface la necesidad por la cual fue emprendido.",
+      "explanation": "El proyecto busca dar soluciones operativas reales al negocio."
+    },
+    {
+      "id": "q210",
+      "type": "single_choice",
+      "question": "La 7ª edición del PMBOK cambia el enfoque de procesos a:",
+      "options": [
+        "Enfoque basado en principios y resultados previstos.",
+        "Enfoque basado en el azar.",
+        "Enfoque basado únicamente en el director.",
+        "Enfoque estático e inamovible."
+      ],
+      "correct_answer": "Enfoque basado en principios y resultados previstos.",
+      "explanation": "Evoluciona de un enfoque predictivo hacia uno más adaptativo."
+    },
+    {
+      "id": "q211",
+      "type": "single_choice",
+      "question": "¿Cuál es el objetivo del código deontológico del director de proyectos?",
+      "options": [
+        "Aumentar el sueldo de los directores.",
+        "Incrementar el bienestar de la sociedad dirigiendo con altos patrones éticos.",
+        "Castigar a los técnicos que fallan.",
+        "Engañar a los clientes legalmente."
+      ],
+      "correct_answer": "Incrementar el bienestar de la sociedad dirigiendo con altos patrones éticos.",
+      "explanation": "Busca obtener y conservar la confianza de todos los involucrados y la sociedad."
+    },
+    {
+      "id": "q212",
+      "type": "single_choice",
+      "question": "Los cuatro valores fundamentales de la responsabilidad profesional según el PMI son:",
+      "options": [
+        "Dinero, Poder, Éxito y Rapidez.",
+        "Responsabilidad, Respeto, Imparcialidad y Honestidad.",
+        "Amistad, Trabajo, Suerte y Paciencia.",
+        "Autoridad, Jerarquía, Control y Disciplina."
+      ],
+      "correct_answer": "Responsabilidad, Respeto, Imparcialidad y Honestidad.",
+      "explanation": "Estos valores guían la conducta ética en todas las decisiones y acciones."
+    },
+    {
+      "id": "q213",
+      "type": "single_choice",
+      "question": "En relación con los conflictos de intereses, el director debe:",
+      "options": [
+        "Ignorarlos si le benefician personalmente.",
+        "Buscarlos proactivamente y resolverlos de forma sincera y honesta.",
+        "Ocultarlos al patrocinador.",
+        "Favorecer siempre a sus amigos."
+      ],
+      "correct_answer": "Buscarlos proactivamente y resolverlos de forma sincera y honesta.",
+      "explanation": "La integridad exige prevenir y vigilar la aparición de estos conflictos."
+    },
+    {
+      "id": "q214",
+      "type": "single_choice",
+      "question": "Si un cliente pide trabajos extra fuera del contrato inicial, el director debe:",
+      "options": [
+        "Hacerlos gratis para quedar bien.",
+        "Rechazar el requerimiento y pedir al cliente un requerimiento formal de cambio.",
+        "Ignorar al cliente hasta que se olvide.",
+        "Cobrarle el dinero en efectivo sin registrarlo."
+      ],
+      "correct_answer": "Rechazar el requerimiento y pedir al cliente un requerimiento formal de cambio.",
+      "explanation": "Es la forma profesional de gestionar el alcance y proteger el proyecto."
+    },
+    {
+      "id": "q215",
+      "type": "single_choice",
+      "question": "¿Qué debe hacer el director ante un comportamiento no ético de un colega?",
+      "options": [
+        "Callarse para no tener problemas.",
+        "Informar a los responsables o a la dirección de la empresa.",
+        "Hacer lo mismo para no quedarse atrás.",
+        "Reírse con el resto del equipo."
+      ],
+      "correct_answer": "Informar a los responsables o a la dirección de la empresa.",
+      "explanation": "Es parte de la responsabilidad profesional denunciar violaciones de normas o leyes."
+    },
+    {
+      "id": "q216",
+      "type": "single_choice",
+      "question": "El valor \"Imparcialidad\" implica:",
+      "options": [
+        "Favorecer siempre a la propia empresa sobre el cliente.",
+        "No discriminar por raza, religión, sexo o nivel económico y actuar sin sobornos.",
+        "Tomar decisiones basadas en el azar.",
+        "No hablar con nadie para no estar influenciado."
+      ],
+      "correct_answer": "No discriminar por raza, religión, sexo o nivel económico y actuar sin sobornos.",
+      "explanation": "La objetividad y la justicia son pilares de la gestión profesional."
+    },
+    {
+      "id": "q217",
+      "type": "single_choice",
+      "question": "Si un empleado está listo para ser promocionado pero esto perjudica tu proyecto, debes:",
+      "options": [
+        "Impedir la promoción a toda costa.",
+        "Apoyar la promoción y trabajar en un buen plan de transición.",
+        "Decirle al empleado que no vale para el nuevo puesto.",
+        "No hacer nada y esperar a que el empleado se queme."
+      ],
+      "correct_answer": "Apoyar la promoción y trabajar en un buen plan de transición.",
+      "explanation": "Es parte del respeto y la responsabilidad hacia el desarrollo profesional de los demás."
+    },
+    {
+      "id": "q218",
+      "type": "single_choice",
+      "question": "El director de proyectos debe aceptar únicamente:",
+      "options": [
+        "Los proyectos que paguen más dinero.",
+        "Asignaciones para las que esté completamente cualificado por experiencia y formación.",
+        "Proyectos que le permitan viajar mucho.",
+        "Cualquier cosa que le pida el jefe."
+      ],
+      "correct_answer": "Asignaciones para las que esté completamente cualificado por experiencia y formación.",
+      "explanation": "No es ético dirigir un proyecto sin la formación o competencia necesaria."
+    },
+    {
+      "id": "q219",
+      "type": "single_choice",
+      "question": "La honestidad en la comunicación requiere:",
+      "options": [
+        "Decir solo lo que el cliente quiere oír.",
+        "Intentar entender la verdad y ser sincero incluso con los problemas.",
+        "No admitir nunca errores propios.",
+        "Ocultar información sensible para que el equipo no se asuste."
+      ],
+      "correct_answer": "Intentar entender la verdad y ser sincero incluso con los problemas.",
+      "explanation": "La falta de sinceridad genera información inexacta y poca cooperación."
+    },
+    {
+      "id": "q220",
+      "type": "single_choice",
+      "question": "¿Qué debe hacer un director PMP respecto a la propiedad intelectual?",
+      "options": [
+        "Copiar software y libros si son para el proyecto.",
+        "Proteger la propiedad de la información y no violar derechos de autor (copyright).",
+        "Ignorar las licencias si son muy caras.",
+        "Compartir material confidencial en redes sociales."
+      ],
+      "correct_answer": "Proteger la propiedad de la información y no violar derechos de autor (copyright).",
+      "explanation": "El respeto a la propiedad intelectual es una obligación legal y ética."
+    },
+    {
+      "id": "q221",
+      "type": "single_choice",
+      "question": "En relación con los usuarios del proyecto, el director debe:",
+      "options": [
+        "Ignorar su seguridad si cuesta mucho dinero.",
+        "Proporcionar un adecuado nivel de satisfacción y seguridad.",
+        "Engañarles sobre las capacidades reales del producto.",
+        "Evitar que usen el producto hasta que se haya pagado todo."
+      ],
+      "correct_answer": "Proporcionar un adecuado nivel de satisfacción y seguridad.",
+      "explanation": "Es una obligación ética recogida en el código deontológico."
+    },
+    {
+      "id": "q222",
+      "type": "single_choice",
+      "question": "El profesional de la dirección de proyectos debe:",
+      "options": [
+        "Mantenerse con los conocimientos que obtuvo al graduarse.",
+        "Mejorar su competencia individual y la base de conocimiento de la organización de forma continua.",
+        "Guardarse sus trucos para que nadie más aprenda.",
+        "Solo aprender lo que le pida la empresa."
+      ],
+      "correct_answer": "Mejorar su competencia individual y la base de conocimiento de la organización de forma continua.",
+      "explanation": "La profesionalización exige desarrollo y formación permanente."
+    },
+    {
+      "id": "q223",
+      "type": "single_choice",
+      "question": "Si un cliente ofrece un incentivo monetario personal para cambiar una configuración, el director debe:",
+      "options": [
+        "Aceptarlo y no decir nada.",
+        "Abstenerse de aceptar y recomendar al cliente seguir el proceso de control de cambios.",
+        "Pedir más dinero para aceptar.",
+        "Aceptarlo solo si es un regalo de bajo valor."
+      ],
+      "correct_answer": "Abstenerse de aceptar y recomendar al cliente seguir el proceso de control de cambios.",
+      "explanation": "Los sobornos violan la integridad y la imparcialidad profesional."
+    },
+    {
+      "id": "q224",
+      "type": "single_choice",
+      "question": "Ante una disputa sobre la interpretación de una cláusula del contrato, el director debe:",
+      "options": [
+        "Darle la razón al cliente siempre para evitar líos.",
+        "Documentar la disputa y acudir a las provisiones del contrato para resolverla.",
+        "Amenazar al cliente con detener el proyecto.",
+        "Cambiar la cláusula en secreto."
+      ],
+      "correct_answer": "Documentar la disputa y acudir a las provisiones del contrato para resolverla.",
+      "explanation": "Se debe actuar de forma ética y legal, enfrentando los conflictos directamente."
+    },
+    {
+      "id": "q225",
+      "type": "single_choice",
+      "question": "La responsabilidad social profesional implica tener en cuenta:",
+      "options": [
+        "Solo el beneficio de los accionistas.",
+        "Los intereses de la comunidad, la sociedad y el medioambiente al tomar decisiones.",
+        "Únicamente el cumplimiento del plazo del proyecto.",
+        "El bienestar exclusivo del director de proyectos."
+      ],
+      "correct_answer": "Los intereses de la comunidad, la sociedad y el medioambiente al tomar decisiones.",
+      "explanation": "El director debe incrementar el bienestar de todos los componentes de la sociedad. Principio del formulario A. Preguntas tipo test Tema 1 – Conceptos básicos Pregunta 1. ¿Qué es un proyecto? A. Una secuencia de actividades. B. Un esfuerzo continuo que hace la organización para alcanzar resultados definidos previamente. C. Un esfuerzo temporal emprendido para crear un único producto o servicio. D. Cualquier esfuerzo para cumplir con unos requerimientos. Solución: C Pregunta 2. ¿Qué no es verdad en un proceso? A. Tienen entradas. B. Los procesos solo aplican en las operaciones. C. Las salidas son el resultado de la elaboración de las entradas. D. Aplican técnicas y herramientas a las entradas para producir resultados. Solución: B Pregunta 3. ¿Qué significa el concepto de temporal en la definición de proyecto? A. Que es de corta duración. B. Que debe ser terminado dentro del ejercicio fiscal. C. Que tiene un principio y un fin. D. Se refiere a la disponibilidad de los recursos. Solución: C Pregunta 4. ¿Qué no es verdad cuando hablamos de operaciones y proyectos? A. Los dos están exentos de incertidumbre. B. Los dos son realizados por personas. C. Los dos son condicionados por las limitaciones de los recursos. D. Los dos deben ser planificados, ejecutados y controlados. Solución: A Pregunta 5. ¿Cómo podemos definir la calidad del producto o servicio a desarrollar por el proyecto? A. Debe cumplir con los requisitos o especificaciones definidos. B. Debe ser adecuado al uso. C. Debe producir satisfacción al cliente. D. Todas las anteriores son verdad. Solución: D Pregunta 6. ¿Cómo podemos definir de forma genérica el concepto de éxito del proyecto? A. Asegurar la satisfacción del cliente aunque no se cumpla el presupuesto. B. Asegurar productos o servicios a tiempo, con calidad y dentro del presupuesto aprobado. C. Lo más importante es cumplir con los requerimientos firmados con el cliente. D. Asegurar el beneficio económico de la operación. Solución: B Pregunta 7. Indica cuáles de los siguientes no son beneficios del uso de una metodología de dirección de proyectos: A. Facilita la comunicación dentro del equipo de trabajo al tener un vocabulario común. B. Permite realizar estimaciones más realistas sobre el esfuerzo, plazos y costes del proyecto... C. Permite hacer una monitorización poco eficaz del avance del proyecto. D. Asegura una coherencia a la hora de definir tareas a los diferentes miembros del equipo. Solución: C Pregunta 8. ¿Quiénes no son stakeholder? A. Los individuos de la organización interna que están activamente involucrados en el proyecto. B. Las organizaciones externas que están activamente involucrados en el proyecto. C. Los individuos u organizaciones cuyos intereses se pueden ver afectados... D. Los individuos que ejercen poca o ninguna influencia sobre el proyecto... Solución: D Pregunta 9. ¿Qué es la dirección de proyectos? A. Aplicación de conocimiento... con el objetivo de cumplir con las expectativas de los stakeholder. B. Aplicación de conocimiento... con el objetivo de cumplir con los requisitos del proyecto. C. Aplicación de conocimiento... con el objetivo de cumplir y/o exceder las necesidades del proyecto. D. Es la aplicación del conocimiento, habilidades, herramientas y técnicas a las actividades de un proyecto con el objetivo de cumplir o exceder los requisitos del proyecto. Solución: D Pregunta 10. ¿Qué es cierto sobre el concepto de plan de proyecto? A. Es la secuencia de actividades planificadas en el tiempo. B. No necesita incluir todas las áreas de conocimiento porque se haría complejo su control. C. Es la carretera que se debe seguir... y puede ser modificado a voluntad por el líder. D. El plan de proyecto debe incluir inevitablemente todas las áreas de conocimiento, con la profundidad que requiera la complejidad del proyecto... Solución: D Tema 2 – Ciclo de vida y procesos Pregunta 1. ¿Qué es un programa? A. Un grupo de actividades que se ejecutan durante el año en curso. B. Un grupo de proyectos relacionados que se manejan de una forma coordinada para obtener más beneficios. C. Es lo mismo que un proyecto siempre que este tenga un presupuesto significativo. D. Este concepto se refiere a la estrategia o pasos a seguir. Solución: B Pregunta 2. El ciclo de vida del proyecto... A. Es lo mismo que el ciclo de vida del producto. B. Coincide con el proceso de planificación del proyecto. C. Es otra forma de referirnos al cronograma. D. Define las fases que conectan el inicio de un proyecto con su fin. Solución: D Pregunta 3. El ciclo de vida de la gestión del proyecto está formado por los siguientes procesos... A. Iniciación, implementación, ejecución y operación. B. Planificación, control, operación y cierre. C. Iniciación, planificación, ejecución, control y cierre. D. Iniciación, ejecución, monitorización, evaluación, y cierre. Solución: C Pregunta 4. ¿Qué es verdadero en relación a la finalidad del proceso de iniciación? A. Obtener la autorización para comenzar el proyecto o la fase. B. Asegurar la integración a lo largo y ancho del proyecto. C. Controlar la calidad. D. Formalizar la aceptación del proyecto o fase del cliente o del patrocinador. Solución: A Pregunta 5. ¿Qué es falso en relación a la finalidad del proceso de planificación? A. Desarrollar un plan de proyecto. B. Proporcionar una descripción general de la suma de los productos o servicios... C. Identificar qué, quién debe hacer qué, cuándo debe hacerlo, con qué calidad y coste. D. Controlar los cambios de la planificación. Solución: D Pregunta 6. Responder a los cambios y mitigar los riesgos es una finalidad del proceso de... A. Ejecución. B. Iniciación. C. Cierre. D. Control. Solución: D Pregunta 7. La finalidad del proceso de control es... A. Formalizar la aceptación del proyecto o fase. B. Mantener el proyecto según los planes para conseguir sus objetivos tal y como se expresan en el plan de proyecto. C. Registrar las «lecciones aprendidas». D. Definir cómo vamos a llegar al objetivo, tiempo y recursos. Solución: B Pregunta 8. ¿Qué es falso con relación a la finalidad del proceso de cierre? A. Formalizar la aceptación del proyecto o fase. B. Liberar ordenadamente los recursos. C. Cerrar el contrato y los relativos a las adquisiciones. D. Confirmar la alineación del proyecto con los objetivos estratégicos. Solución: D Pregunta 9. ¿Cuál de las siguientes afirmaciones es falsa? A. El desarrollo del cronograma es uno de los procesos de la gestión del tiempo. B. El desarrollo del cronograma es uno de los procesos del grupo de procesos de planificación. C. Los grupos de procesos iniciar, planificar, ejecutar, controlar y cerrar no aplican a las áreas de conocimiento... D. Puede haber varios procesos dentro de un mismo grupo de procesos para un área de conocimiento... Solución: C Pregunta 10. ¿Cuál de las siguientes afirmaciones es falsa? A. No es una de las responsabilidades del líder equilibrar el beneficio hacia el negocio y la tecnología necesaria... B. El equipo de gestión será responsable de determinar qué es apropiado para gestionar un proyecto concreto. C. El líder debe asegurar que siempre está disponible para todos los stakeholder la mejor información. D. Son los grupos funcionales los expertos que llevarán a cabo los proyectos. Solución: A Tema 3 – Iniciación Pregunta 1. ¿A qué grupo de procesos pertenece: desarrolla el documento que autoriza un proyecto y redacta los requisitos iniciales? A. Iniciación. B. Monitorización y control. C. Planificación. D. Ejecución. Solución: A Pregunta 2. ¿A qué grupo de procesos pertenece el proceso: desarrollar el acta de constitución? A. Monitorización y control. B. Ejecución. C. Iniciación. D. Cierre. Solución: C Pregunta 3. ¿Cuál de las siguientes afirmaciones es falsa con relación a los «criterios de éxito» del proyecto? A. Los criterios de éxito aseguran que los objetivos son medibles. B. Se pueden definir en cualquier momento a lo largo del ciclo de vida del proyecto. C. Deben ser acordados con el cliente y con la propia organización. D. El plazo, el presupuesto, la calidad, no siempre cubren todos los criterios. Solución: B Pregunta 4. ¿Qué es verdadero con relación a la finalidad del proceso de iniciación? A. Controlar la calidad. B. Asegurar la integración a lo largo y ancho del proyecto. C. Obtener la autorización para comenzar el proyecto o la fase. D. Formalizar la aceptación del proyecto o fase. Solución: C Pregunta 5. ¿Cuál de los siguientes elementos no puede faltar en un acta de constitución de proyecto? A. Descripción detallada del alcance del proyecto. B. Necesidades de negocio. C. Proceso de aprobación de proyecto. D. Presupuesto detallado del proyecto. Solución: B Pregunta 6. ¿Cuál es el significado de SMART para los objetivos del proyecto? A. Sencillo, Medible, Asignable, Realista, Temporal. B. Solucionable, Medible, Asignable, Realista, Temporal. C. Específico, Medible, Asignable, Realista, Temporal. D. Específico, Medible, Alcanzable, Realista, Temporal. Solución: D Pregunta 7. ¿Cuáles de los siguientes puntos no está incluido en el acta del proyecto? A. Descripción del producto o servicio. B. Plan de gestión de alcance. C. Necesidad del negocio que debe ser satisfecha por el proyecto. D. Reconoce la autoridad del jefe de proyecto. Solución: B Pregunta 8. ¿Cuándo es el mejor momento de asignar un director de proyectos al proyecto? A. Ejecución. B. Control. C. Planificación. D. Inicio. Solución: D Pregunta 9. ¿Los tipos de preguntas que se hacen al cliente para entender claramente lo que necesita son del tipo? A. Implícitas, de utilidad, de desarrollo y de información. B. De información, de necesidades, de desarrollo y de utilidad. C. Explicitas, de información y de necesidades. D. Implícitas y expresas. Solución: B Pregunta 10. Para completar la iniciación del proyecto, ¿qué es lo que necesita el director de proyecto además del acta de proyecto? A. El detalle de los requisitos. B. Plan de gestión de alcance. C. Estructura detallada del trabajo. D. Hipótesis y limitaciones. Solución: D Tema 4 – Planificación y Alcance Pregunta 1. ¿Qué áreas de conocimiento integra de forma explícita el plan básico del proyecto? A. Alcance, tiempo, coste y calidad. B. Alcance, tiempo, riesgo y calidad. C. Tiempo, coste, riesgo y calidad. D. Alcance, tiempo, coste y riesgo. Solución: D Pregunta 2. ¿Cuál de las siguientes afirmaciones sobre el plan de proyecto es falsa? A. Sirve para tener un mapa de carreteras... B. Sirve para completar el proyecto según el presupuesto aprobado. C. Sirve para contrastar la situación actual del proyecto. D. Sirve para analizar desviaciones... y ejecutar acciones correctoras. Solución: B Pregunta 3. ¿De qué área de conocimiento se puede prescindir en proyectos sencillos? A. De la calidad. B. De los riesgos. C. Inevitablemente se deben incluir todas las áreas de conocimiento, con la profundidad que requiera la complejidad... D. De las adquisiciones. Solución: C Pregunta 4. ¿Qué es lo primero que se debería conocer para poder preparar un plan realista? A. La expectativa del cliente. B. Lo que el cliente quiere. C. Lo que el cliente necesita. D. Lo que el cliente desea. Solución: C Pregunta 5. ¿Cuál de las siguientes afirmaciones es falsa con relación a los «criterios de éxito» del proyecto? A. Aseguran que los objetivos son medibles. B. Se pueden definir en cualquier momento a lo largo del ciclo de vida. C. Deben ser acordados con el cliente y con la propia organización. D. El plazo, presupuesto y calidad no siempre cubren todos los criterios. Solución: B Pregunta 6. ¿Cuál es el significado de SMART para los objetivos del proyecto? A. Sencillo, Medible, Asignable, Realista, Temporal. B. Solucionable, Medible, Asignable, Realista, Temporal. C. Específico, Medible, Asignable, Realista, Temporal. D. Específico, Medible, Alcanzable, Realista, Temporal. Solución: D Pregunta 7. ¿Cuál de las siguientes afirmaciones es falsa con relación a la definición del alcance del proyecto? A. El alcance del proyecto y el del producto o servicio a desarrollar es equivalente. B. Es lo que físicamente va a ocurrir... para asegurar que los objetivos se cumplen. C. El alcance debe acordarse con el cliente. D. El alcance debe descomponerse en actividades para identificar todos los entregables. Solución: A Pregunta 8. ¿Qué entregables deben aparecer en el plan de proyecto? A. Solo los asociados a los hitos. B. Suficiente con los asociados al desarrollo del producto. C. No es necesario que aparezcan los asociados a la gestión del proyecto. D. Deberían aparecer todos los necesarios, asociados a relaciones contractuales, al desarrollo del producto y a la propia gestión del proyecto. Solución: D Pregunta 9. ¿Qué se debería utilizar como mínimo para controlar y asegurar el éxito del proyecto? A. La lista de requisitos. B. La lista de actividades del alcance, el cronograma, el presupuesto dinámico y el plan de respuesta a los riesgos. C. El cronograma y el presupuesto. D. Dependerá del presupuesto. Solución: B Pregunta 10. ¿Cuál es la secuencia habitual para la gestión de los riesgos? A. Identificar, cualificar, cuantificar, priorizar y responder. B. Identificar y responder. C. Identificar, cuantificar, cualificar, priorizar y responder. D. Identificar, cualificar, cuantificar, priorizar y proteger. Solución: A ¿Cuál de las siguientes afirmaciones define mejor un proyecto? A. Conjunto de actividades permanentes para mantener un servicio. B. Esfuerzo temporal para crear un producto, servicio o resultado único. Correcta: B Respecto al ciclo de vida del proyecto y del producto: A. Son equivalentes siempre. B. El ciclo de vida del proyecto es parte del ciclo de vida del producto. Correcta: B En el proceso de inicio (inicio del proyecto) se incluye: A. El análisis de viabilidad (Business Case) para decidir si se aprueba e inicia. B. La ejecución de los entregables y el control de cambios. Correcta: A La planificación del proyecto: A. No se ocupa de coordinar y organizar de forma proactiva la entrega de resultados. B. Coordina y organiza de forma proactiva el trabajo para crear los entregables. Correcta: B Un proyecto se caracteriza por ser: A. Una actividad continua y repetitiva. B. Temporal, con inicio y fin. Correcta: B Los interesados (stakeholders) son: A. Solo el cliente y el director del proyecto. B. Personas u organizaciones involucradas o afectadas positiva/negativamente por el proyecto. Correcta: B La gestión del alcance busca: A. Incluir todo el trabajo necesario y solo el necesario para completar el proyecto con éxito. B. Añadir trabajo extra para aumentar el valor percibido sin control. Correcta: A En planificación, “duración” se refiere a: A. Tiempo calendario para completar una actividad, distinto del esfuerzo. B. Horas totales de trabajo necesarias (esfuerzo). Correcta: A La incertidumbre, los riesgos y las relaciones cambiantes caracterizan principalmente: A. Las operaciones. B. Los proyectos. Correcta: B En proyectos pequeños, si hay experiencia: A. No se necesita planificación. B. La planificación sigue siendo necesaria (aunque sea proporcional al tamaño). Correcta: B Sobre estimaciones Top-Down y Bottom-Up: A. Top-Down es por analogía/alto nivel; Bottom-Up es detallada desde actividades. B. Top-Down es detallada; Bottom-Up es por comparación con proyectos similares. Correcta: A El alcance de un proyecto se define como: A. El conjunto de todos los trabajos requeridos y solo los trabajos requeridos para completarlo con éxito. B. El conjunto de actividades deseables, aunque no estén justificadas. Correcta: A Un diagrama de Gantt se usa principalmente para: A. Representar dependencias lógicas y relaciones de precedencia (diagrama de red). B. Representar la distribución temporal de actividades en el calendario. Correcta: B El objetivo de la gestión de proyectos es: A. Satisfacer expectativas no explícitas del cliente por encima de los requisitos acordados. B. Cumplir requisitos acordados, equilibrando alcance, tiempo, coste, calidad y riesgo. Correcta: B ¿Qué documento sirve como base de acuerdo entre organización ejecutora y cliente respecto al trabajo incluido? A. Enunciado del alcance (Scope Statement). B. Registro de riesgos. Correcta: A Sobre el acta de constitución (Project Charter): A. No incluye el Business Case ni aspectos de viabilidad/ROI. B. Puede incluir el Business Case y justificación, incluyendo ROI a alto nivel. Correcta: B A lo largo del ciclo de vida del proyecto, la incertidumbre y el riesgo: A. Suelen disminuir conforme avanza el proyecto. B. Suelen aumentar conforme avanza el proyecto. Correcta: A Un entregable es: A. Cualquier tarea interna del equipo. B. Un producto, resultado o documento verificable. Correcta: B El “registro de interesados” (stakeholder register): A. Identifica y clasifica interesados; no define por sí mismo el nivel de compromiso deseado. B. Define el nivel de compromiso actual/deseado y requisitos de comunicación durante todo el proyecto. Correcta: A La herramienta que determina compromiso actual/deseado y necesidades de comunicación de stakeholders es: A. El Plan de Gestión de Interesados. B. El Acta de Constitución. Correcta: A B) Problema 1 (convertido a tipo test) En el proyecto de consultoría descrito, el entregable final al cliente es: A. Un prototipo funcional de realidad virtual listo para producción. B. Un informe del estudio previo de viabilidad para la aplicación de realidad virtual. C. Un plan de mantenimiento anual de la solución. D. Un manual de usuario y formación completa. Correcta: B Al descomponer el trabajo en 4 partes, el director está aplicando el proceso y resultado de: A. Proceso: Definir el Alcance / Resultado: Matriz de trazabilidad. B. Proceso: Crear la EDT/WBS / Resultado: EDT (Estructura de Descomposición del Trabajo). C. Proceso: Planificar la Gestión del Cronograma / Resultado: Línea base de costes. D. Proceso: Controlar el Alcance / Resultado: Registro de cambios. Correcta: B ¿Cuál es el presupuesto de coste inicialmente estimado (BAC) del proyecto? A. 7.000 € (porque es el pago del cliente). B. 4.000 € (4 etapas × 1.000 €). C. 3.000 € (por 3 meses planificados). D. 3.200 € (coste real acumulado a mes 3). Correcta: B Al finalizar el 3.º mes, según los datos: PV=3.000 €, EV=3.250 €, AC=3.200 €. ¿Cuál es la variación de cronograma (SV)? A. SV = -250 € (retraso). B. SV = +50 € (adelantado). C. SV = +250 € (adelantado). D. SV = -50 € (retraso). Correcta: C Con los mismos datos, ¿cuál es la variación de coste (CV)? A. CV = +50 € (bajo presupuesto). B. CV = -50 € (sobre presupuesto). C. CV = +250 € (bajo presupuesto). D. CV = -250 € (sobre presupuesto). Correcta: A Interpretación global al finalizar el 3.º mes: A. Retrasado y sobre presupuesto (SV<0, CV<0). B. Adelantado y bajo presupuesto (SV>0, CV>0). C. Adelantado y sobre presupuesto (SV>0, CV<0). D. Retrasado y bajo presupuesto (SV<0, CV>0). Correcta: B"
+    }
+  ]
+}
