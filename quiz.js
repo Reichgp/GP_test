@@ -1,4 +1,4 @@
-const DATA_FILE = "GP_2.json";
+const DATA_FILE = "IS_2.json";
 
 let settings = {
   show_progress: true,
@@ -14,12 +14,10 @@ let idx = 0;
 let score = 0;
 let answered = 0;
 let currentAnswered = false;
+let lastWasCorrect = false;
 
-// key: question.uid  value: { selectedIndex: number, isCorrect: boolean, displayOrder: number[] }
+// key: question.id  value: { selectedIndex: number, selectedText: string, isCorrect: boolean }
 const responses = new Map();
-
-// Guarda el orden de opciones mostrado en pantalla para la pregunta actual (por origIndex)
-let currentDisplayOrder = null;
 
 const elStatus = document.getElementById("status");
 const elProgress = document.getElementById("progress");
@@ -59,9 +57,18 @@ async function init() {
 
     if (!Array.isArray(data.questions)) throw new Error("El JSON no contiene 'questions' como array.");
 
-    questions = data.questions.map((q, i) => normalizeQuestion(q, i));
-    order = Array.from({ length: questions.length }, (_, i) => i);
+    questions = data.questions.map(q => normalizeQuestion(q));
 
+    // Defensa: si hubiera IDs duplicados, los hacemos únicos sin tocar el contenido
+    const seenIds = new Map();
+    questions.forEach((qq, i) => {
+      const base = qq.id || `q__${i}`;
+      const n = (seenIds.get(base) || 0) + 1;
+      seenIds.set(base, n);
+      if (n > 1) qq.id = `${base}__${n}`;
+    });
+
+    order = Array.from({ length: questions.length }, (_, i) => i);
     if (settings.shuffle_questions) shuffleInPlace(order);
 
     elTotal.textContent = String(questions.length);
@@ -79,14 +86,22 @@ async function init() {
   }
 }
 
-function normalizeQuestion(q, i) {
+// Si tus preguntas traen explanation en raíz o explicacion en meta:
+function normalizeQuestion(q) {
   const question = String(q.question ?? "");
   const options = Array.isArray(q.options) ? q.options.map(String) : [];
-  const correctAnswer = String(q.correct_answer ?? "");
+  const correct = String(q.correct_answer ?? "");
 
-  // Robustez: preferir correct_index si viene; si no, derivarlo por texto
-  let correctIndex = Number.isInteger(q.correct_index) ? q.correct_index : options.indexOf(correctAnswer);
-  if (correctIndex < 0) correctIndex = -1;
+  // Índice correcto (0..n-1) si viene; si no, se calcula por coincidencia exacta de texto.
+  let correct_index =
+    (typeof q.correct_index === "number") ? q.correct_index :
+    (q.meta && typeof q.meta === "object" && typeof q.meta.correct_index === "number") ? q.meta.correct_index :
+    null;
+
+  if (correct_index == null) {
+    const idx = options.indexOf(correct);
+    correct_index = (idx >= 0) ? idx : null;
+  }
 
   const meta = (q.meta && typeof q.meta === "object") ? q.meta : {};
   const explanation =
@@ -94,26 +109,23 @@ function normalizeQuestion(q, i) {
     meta.explicacion != null ? String(meta.explicacion) :
     "";
 
-  const id = String(q.id ?? "");
-  const uid = id ? `${id}__${i}` : `q__${i}`; // clave única SIEMPRE
-
   return {
-    uid,
-    id,
+    id: String(q.id ?? ""),
     type: String(q.type ?? "single_choice"),
     question,
     options,
-    correct_answer: correctAnswer,
-    correct_index: correctIndex,
+    correct_answer: correct,
+    correct_index,
     explanation
   };
 }
 
 function renderQuestion() {
   const q = questions[order[idx]];
-  const saved = responses.get(q.uid);
+  const saved = responses.get(q.id);
 
   currentAnswered = Boolean(saved);
+  lastWasCorrect = saved ? saved.isCorrect : false;
 
   elResult.innerHTML = "";
   elExplanation.style.display = "none";
@@ -129,19 +141,10 @@ function renderQuestion() {
     elProgress.textContent = "";
   }
 
-  // Construir opciones como objetos {text, origIndex}
+  // opciones (con shuffle opcional)
+  // IMPORTANTE: si ya estaba respondida, NO barajar, para que coincida la selección guardada
   let opts = q.options.map((text, origIndex) => ({ text, origIndex }));
-
-  // Mantener el mismo orden de opciones cuando se vuelve a una pregunta ya respondida
-  if (saved && Array.isArray(saved.displayOrder) && saved.displayOrder.length === opts.length) {
-    const byIdx = new Map(opts.map(o => [o.origIndex, o]));
-    opts = saved.displayOrder.map(oi => byIdx.get(oi)).filter(Boolean);
-  } else {
-    // Si no está respondida y hay shuffle, barajar
-    if (!saved && settings.shuffle_options) shuffleInPlace(opts);
-  }
-
-  currentDisplayOrder = opts.map(o => o.origIndex);
+  if (!saved && settings.shuffle_options) shuffleInPlace(opts);
 
   opts.forEach((opt, i) => {
     const id = `opt_${idx}_${i}`;
@@ -154,12 +157,14 @@ function renderQuestion() {
     input.name = "opt";
     input.id = id;
 
-    // Guardamos el índice original (0..3) como valor (robusto aunque el texto se repita)
+    // Guardamos el índice ORIGINAL (no el texto) para que sea robusto aunque haya barajado
     input.value = String(opt.origIndex);
+    input.dataset.text = opt.text;
 
     // restaurar selección si ya estaba respondida
     if (saved && saved.selectedIndex === opt.origIndex) input.checked = true;
 
+    // si no está respondida, habilita botón responder al seleccionar
     input.addEventListener("change", () => {
       if (!currentAnswered) btnAnswer.disabled = false;
     });
@@ -174,6 +179,7 @@ function renderQuestion() {
   btnNext.disabled = !currentAnswered;
   btnAnswer.disabled = true;
 
+  // si ya estaba respondida, mostramos feedback y bloqueamos inputs
   if (saved) {
     showFeedbackForSaved(q, saved);
     document.querySelectorAll('input[name="opt"]').forEach(inp => (inp.disabled = true));
@@ -188,13 +194,9 @@ function showFeedbackForSaved(q, saved) {
   if (saved.isCorrect) {
     elResult.innerHTML = `<span class="ok">Correcta</span>`;
   } else {
-    const correctText = (q.correct_index >= 0 && q.correct_index < q.options.length)
-      ? q.options[q.correct_index]
-      : q.correct_answer;
-
     elResult.innerHTML =
       `<span class="bad">Incorrecta</span>` +
-      `<div class="muted small" style="margin-top:6px;">Correcta: <strong>${escapeHtml(correctText)}</strong></div>`;
+      `<div class="muted small" style="margin-top:6px;">Correcta: <strong>${escapeHtml(q.correct_answer)}</strong></div>`;
   }
 
   if (settings.show_explanation && q.explanation && q.explanation.trim().length > 0) {
@@ -211,42 +213,39 @@ function onAnswer() {
   if (!selected) return;
 
   const selectedIndex = Number(selected.value);
-  const isCorrect = (selectedIndex === q.correct_index);
+  const selectedText = String(selected.dataset.text ?? "");
 
-  responses.set(q.uid, {
-    selectedIndex,
-    isCorrect,
-    displayOrder: Array.isArray(currentDisplayOrder) ? currentDisplayOrder.slice() : null
-  });
+  // ✅ CORRECCIÓN: validar por TEXTO (robusto aunque correct_index esté mal en el JSON)
+  const isCorrect = (selectedText === q.correct_answer);
+
+  // guardar respuesta para permitir volver atrás sin recontar
+  responses.set(q.id, { selectedIndex, selectedText, isCorrect });
 
   currentAnswered = true;
   answered += 1;
   if (isCorrect) score += 1;
 
+  // feedback
   if (isCorrect) {
     elResult.innerHTML = `<span class="ok">Correcta</span>`;
   } else {
-    const correctText = (q.correct_index >= 0 && q.correct_index < q.options.length)
-      ? q.options[q.correct_index]
-      : q.correct_answer;
-
     elResult.innerHTML =
       `<span class="bad">Incorrecta</span>` +
-      `<div class="muted small" style="margin-top:6px;">Correcta: <strong>${escapeHtml(correctText)}</strong></div>`;
+      `<div class="muted small" style="margin-top:6px;">Correcta: <strong>${escapeHtml(q.correct_answer)}</strong></div>`;
   }
 
+  // explicación
   if (settings.show_explanation && q.explanation && q.explanation.trim().length > 0) {
     elExplanation.textContent = q.explanation;
     elExplanation.style.display = "block";
   }
 
+  // bloquear inputs
   document.querySelectorAll('input[name="opt"]').forEach(inp => (inp.disabled = true));
 
-  btnAnswer.disabled = true;
   btnNext.disabled = false;
-  btnPrev.disabled = idx === 0;
+  btnAnswer.disabled = true;
 
-  elStatus.textContent = "";
   updateScoreboard();
 }
 
@@ -291,7 +290,6 @@ function restart() {
   currentAnswered = false;
 
   responses.clear();
-  currentDisplayOrder = null;
 
   order = Array.from({ length: questions.length }, (_, i) => i);
   if (settings.shuffle_questions) shuffleInPlace(order);
@@ -307,6 +305,7 @@ function updateScoreboard() {
 
   const fails = Math.max(0, answered - score);
 
+  // Seguridad: si no existe el elemento, no rompas el test
   if (elFails) {
     elFails.textContent = String(fails);
   } else {
